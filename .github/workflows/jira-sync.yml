@@ -1,0 +1,51 @@
+name: Sync Jira Tickets
+
+on:
+  schedule:
+    - cron: '0 12 * * 1-5'  # 8am ET Mon-Fri (UTC-4)
+  workflow_dispatch:  # allows manual trigger from GitHub
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Fetch Jira tickets
+        env:
+          JIRA_EMAIL: ${{ secrets.JIRA_EMAIL }}
+          JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
+          JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL }}
+        run: |
+          curl -s \
+            -u "$JIRA_EMAIL:$JIRA_API_TOKEN" \
+            -H "Accept: application/json" \
+            "$JIRA_BASE_URL/rest/api/3/search?jql=(assignee%3DcurrentUser()%20OR%20reporter%3DcurrentUser())%20AND%20statusCategory%20!%3D%20Done%20ORDER%20BY%20updated%20DESC&maxResults=100&fields=summary,status,issuetype,assignee,reporter" \
+            | python3 -c "
+import json, sys
+data = json.load(sys.stdin)
+tickets = []
+for issue in data.get('issues', []):
+    fields = issue.get('fields', {})
+    assignee = fields.get('assignee') or {}
+    reporter = fields.get('reporter') or {}
+    tickets.append({
+        'key': issue['key'],
+        'summary': fields.get('summary', ''),
+        'status': (fields.get('status') or {}).get('name', ''),
+        'type': (fields.get('issuetype') or {}).get('name', ''),
+        'assignee': assignee.get('displayName', ''),
+        'reporter': reporter.get('displayName', ''),
+        'url': 'https://gocadmium.atlassian.net/browse/' + issue['key']
+    })
+print(json.dumps(tickets, indent=2))
+" > jira-data.json
+
+      - name: Commit jira-data.json
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add jira-data.json
+          git diff --staged --quiet || git commit -m "Auto-sync Jira tickets"
+          git push
