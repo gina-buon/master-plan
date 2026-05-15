@@ -339,7 +339,16 @@ select{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='ht
 
 <!-- JIRA -->
 <div class="page" id="page-jira">
-  <div class="ph"><div class="pt">🎟️ Jira</div><button class="btn btn-p btn-sm" onclick="openAddJira()">+ Add ticket</button></div>
+  <div class="ph">
+    <div>
+      <div class="pt">🎟️ Jira</div>
+      <div style="font-size:10px;color:var(--text3);font-family:var(--mono);margin-top:3px" id="jira-sync-status">Auto-syncs weekday mornings</div>
+    </div>
+    <div style="display:flex;gap:8px;align-items:center">
+      <button class="btn btn-g btn-sm" onclick="syncJiraFromFile()" id="jira-sync-btn">🔄 Sync now</button>
+      <button class="btn btn-p btn-sm" onclick="openAddJira()">+ Add ticket</button>
+    </div>
+  </div>
   <div class="card" id="jira-c"></div>
 </div>
 
@@ -1263,6 +1272,84 @@ function isInternalTicket(key){
   const proj=key.split('-')[0].toUpperCase();
   return INTERNAL_PROJECTS.includes(proj);
 }
+// ── JIRA STATUS MAPPING from raw Jira status names ──
+function mapJiraStatus(rawStatus){
+  if(!rawStatus)return'watching';
+  const s=rawStatus.toLowerCase();
+  if(s.includes('block'))return'blocked';
+  if(s.includes('waiting for customer')||s.includes('waiting on customer'))return'waiting-me';
+  if(s.includes('in dev')||s.includes('in progress')||s.includes('in development'))return'in-progress';
+  if(s.includes('to be deployed')||s.includes('review')||s.includes('testing'))return'in-review';
+  if(s.includes('ready for dev'))return'ready-for-dev';
+  if(s.includes('grooming'))return'grooming';
+  if(s.includes('pm scoping')||s.includes('scoping'))return'pm-scoping';
+  if(s.includes('done')||s.includes('closed')||s.includes('resolved'))return'done';
+  return'watching'; // New, Open, To Do etc.
+}
+
+async function syncJiraFromFile(){
+  const btn=document.getElementById('jira-sync-btn');
+  const status=document.getElementById('jira-sync-status');
+  if(btn)btn.textContent='🔄 Syncing...';
+  try{
+    const res=await fetch('https://gina-buon.github.io/master-plan/jira-data.json?nocache='+Date.now());
+    if(!res.ok)throw new Error('Could not fetch jira-data.json');
+    const fresh=await res.json();
+
+    // Build a map of existing items by key to preserve notes and ids
+    const existingByKey={};
+    jiraItems.forEach(j=>{existingByKey[j.key]=j;});
+
+    // Build set of keys from fresh data
+    const freshKeys=new Set(fresh.map(t=>t.key));
+
+    // Remove tickets that are no longer in Jira (closed/done)
+    // but keep manually added ones (those won't be in fresh data)
+    const autoSyncedKeys=S.get('h3_j_autokeys',[]);
+    const autoKeySet=new Set(autoSyncedKeys);
+
+    // Merge: update existing, add new, remove closed auto-synced ones
+    const merged=[];
+
+    // Keep manually added tickets that aren't in fresh data
+    jiraItems.forEach(j=>{
+      if(!autoKeySet.has(j.key)&&!freshKeys.has(j.key)){
+        merged.push(j); // manually added, keep it
+      }
+    });
+
+    // Process fresh tickets
+    fresh.forEach(t=>{
+      const existing=existingByKey[t.key];
+      merged.push({
+        id: existing?existing.id:uid(),
+        key: t.key,
+        summary: t.summary, // Jira owns this
+        status: mapJiraStatus(t.status), // Jira owns this
+        notes: existing?existing.notes:'', // you own this
+      });
+    });
+
+    // Save the set of auto-synced keys so we know which ones to remove later
+    S.set('h3_j_autokeys', fresh.map(t=>t.key));
+
+    jiraItems=merged;
+    S.set('h3_j',jiraItems);
+    renderJira();
+    updateChecklistVisibility();
+
+    const now=new Date();
+    const stamp=now.toLocaleDateString('en-US',{month:'short',day:'numeric'})+' · '+now.toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'});
+    S.set('h3_j_lastsync',stamp);
+    if(status)status.textContent='Last synced '+stamp;
+    if(btn)btn.textContent='🔄 Sync now';
+  }catch(e){
+    if(status)status.textContent='Sync failed — try again';
+    if(btn)btn.textContent='🔄 Sync now';
+    console.error('Jira sync error:',e);
+  }
+}
+
 function renderJira(){
   const statusOrder={'blocked':0,'waiting-me':1,'in-progress':2,'in-review':3,'grooming':4,'pm-scoping':4,'ready-for-dev':4,'watching':5,'done':6};
   const sorted=[...jiraItems].sort((a,b)=>(statusOrder[a.status]??5)-(statusOrder[b.status]??5));
@@ -2042,6 +2129,17 @@ function runQuickImport(){
 }
 
 renderJira();renderTwilio();renderClients();renderGaps();renderBrag();renderMonday();renderFriday();loadChecks();renderThisWeek();initBanners();renderHistory();renderQuote();autoSweepIfMonday();autoSweepGapsIfMonday();
+
+// Restore last sync timestamp
+const lastSync=S.get('h3_j_lastsync','');
+if(lastSync)document.getElementById('jira-sync-status').textContent='Last synced '+lastSync;
+
+// Auto-sync Jira once per day on first open
+const jiraSyncKey='h3_j_syncdate';
+const todaySyncKey=now.toISOString().split('T')[0];
+if(S.get(jiraSyncKey,'')!==todaySyncKey){
+  syncJiraFromFile().then(()=>S.set(jiraSyncKey,todaySyncKey));
+}
 
 </script>
 </body>
