@@ -2,8 +2,8 @@ name: Sync Jira Tickets
 
 on:
   schedule:
-    - cron: '0 12 * * 1-5'  # 8am ET Mon-Fri (UTC-4)
-  workflow_dispatch:  # allows manual trigger from GitHub
+    - cron: '0 12 * * 1-5'
+  workflow_dispatch:
 
 jobs:
   sync:
@@ -18,29 +18,55 @@ jobs:
           JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
           JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL }}
         run: |
-          curl -s \
-            -u "$JIRA_EMAIL:$JIRA_API_TOKEN" \
-            -H "Accept: application/json" \
-            "$JIRA_BASE_URL/rest/api/3/search?jql=(assignee%3DcurrentUser()%20OR%20reporter%3DcurrentUser())%20AND%20statusCategory%20!%3D%20Done%20ORDER%20BY%20updated%20DESC&maxResults=100&fields=summary,status,issuetype,assignee,reporter" \
-            | python3 -c "
-import json, sys
-data = json.load(sys.stdin)
-tickets = []
-for issue in data.get('issues', []):
-    fields = issue.get('fields', {})
-    assignee = fields.get('assignee') or {}
-    reporter = fields.get('reporter') or {}
-    tickets.append({
-        'key': issue['key'],
-        'summary': fields.get('summary', ''),
-        'status': (fields.get('status') or {}).get('name', ''),
-        'type': (fields.get('issuetype') or {}).get('name', ''),
-        'assignee': assignee.get('displayName', ''),
-        'reporter': reporter.get('displayName', ''),
-        'url': 'https://gocadmium.atlassian.net/browse/' + issue['key']
-    })
-print(json.dumps(tickets, indent=2))
-" > jira-data.json
+          python3 << 'PYEOF'
+          import urllib.request
+          import urllib.parse
+          import json
+          import base64
+          import os
+
+          email = os.environ['JIRA_EMAIL']
+          token = os.environ['JIRA_API_TOKEN']
+          base_url = os.environ['JIRA_BASE_URL']
+
+          credentials = base64.b64encode(f"{email}:{token}".encode()).decode()
+
+          jql = "(assignee = currentUser() OR reporter = currentUser()) AND statusCategory != Done ORDER BY updated DESC"
+          params = urllib.parse.urlencode({
+              'jql': jql,
+              'maxResults': 100,
+              'fields': 'summary,status,issuetype,assignee,reporter'
+          })
+
+          url = f"{base_url}/rest/api/3/search?{params}"
+          req = urllib.request.Request(url, headers={
+              'Authorization': f'Basic {credentials}',
+              'Accept': 'application/json'
+          })
+
+          with urllib.request.urlopen(req) as response:
+              data = json.loads(response.read())
+
+          tickets = []
+          for issue in data.get('issues', []):
+              fields = issue.get('fields', {})
+              assignee = fields.get('assignee') or {}
+              reporter = fields.get('reporter') or {}
+              tickets.append({
+                  'key': issue['key'],
+                  'summary': fields.get('summary', ''),
+                  'status': (fields.get('status') or {}).get('name', ''),
+                  'type': (fields.get('issuetype') or {}).get('name', ''),
+                  'assignee': assignee.get('displayName', ''),
+                  'reporter': reporter.get('displayName', ''),
+                  'url': f"{base_url}/browse/{issue['key']}"
+              })
+
+          with open('jira-data.json', 'w') as f:
+              json.dump(tickets, f, indent=2)
+
+          print(f"Wrote {len(tickets)} tickets to jira-data.json")
+          PYEOF
 
       - name: Commit jira-data.json
         run: |
