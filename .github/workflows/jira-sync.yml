@@ -31,7 +31,8 @@ jobs:
 
           credentials = base64.b64encode(f"{email}:{token}".encode()).decode()
 
-          jql = "(assignee = 61377356ee2fd0006ac2806d OR reporter = 61377356ee2fd0006ac2806d) AND statusCategory != Done ORDER BY updated DESC"
+          # Exclude test/template projects and done tickets
+          jql = "(assignee = 61377356ee2fd0006ac2806d OR reporter = 61377356ee2fd0006ac2806d) AND statusCategory != Done AND status != Closed AND project NOT IN (ECEL, TU24) ORDER BY updated DESC"
 
           payload = json.dumps({
               "jql": jql,
