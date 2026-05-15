@@ -31,7 +31,7 @@ jobs:
 
           credentials = base64.b64encode(f"{email}:{token}".encode()).decode()
 
-          jql = "(assignee = currentUser() OR reporter = currentUser()) AND statusCategory != Done ORDER BY updated DESC"
+          jql = "(assignee = 61377356ee2fd0006ac2806d OR reporter = 61377356ee2fd0006ac2806d) AND statusCategory != Done ORDER BY updated DESC"
           params = urllib.parse.urlencode({
               'jql': jql,
               'maxResults': 100,
