@@ -32,17 +32,24 @@ jobs:
           credentials = base64.b64encode(f"{email}:{token}".encode()).decode()
 
           jql = "(assignee = 61377356ee2fd0006ac2806d OR reporter = 61377356ee2fd0006ac2806d) AND statusCategory != Done ORDER BY updated DESC"
-          params = urllib.parse.urlencode({
-              'jql': jql,
-              'maxResults': 100,
-              'fields': 'summary,status,issuetype,assignee,reporter'
-          })
 
-          url = f"{base_url}/rest/api/3/search?{params}"
-          req = urllib.request.Request(url, headers={
-              'Authorization': f'Basic {credentials}',
-              'Accept': 'application/json'
-          })
+          payload = json.dumps({
+              "jql": jql,
+              "maxResults": 100,
+              "fields": ["summary", "status", "issuetype", "assignee", "reporter"]
+          }).encode('utf-8')
+
+          url = f"{base_url}/rest/api/3/search/jql"
+          req = urllib.request.Request(
+              url,
+              data=payload,
+              headers={
+                  'Authorization': f'Basic {credentials}',
+                  'Accept': 'application/json',
+                  'Content-Type': 'application/json'
+              },
+              method='POST'
+          )
 
           with urllib.request.urlopen(req) as response:
               data = json.loads(response.read())
@@ -65,7 +72,7 @@ jobs:
           with open('jira-data.json', 'w') as f:
               json.dump(tickets, f, indent=2)
 
-          print(f"Wrote {len(tickets)} tickets to jira-data.json")
+          print(f"Successfully wrote {len(tickets)} tickets to jira-data.json")
           PYEOF
 
       - name: Commit jira-data.json
@@ -73,5 +80,5 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add jira-data.json
-          git diff --staged --quiet || git commit -m "Auto-sync Jira tickets"
+          git diff --staged --quiet || git commit -m "Auto-sync Jira tickets $(date -u +%Y-%m-%d)"
           git push
