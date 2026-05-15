@@ -1290,9 +1290,14 @@ const JST={
   'waiting-me':    {l:'Waiting for Customer',c:'ba'},
 };
 const INTERNAL_PROJECTS=['PR','CISD','CORE','LXT','ECEDEALS'];
+const EXCLUDED_PROJECTS=['ECEL','TU24'];
 function isInternalTicket(key){
   const proj=key.split('-')[0].toUpperCase();
   return INTERNAL_PROJECTS.includes(proj);
+}
+function isExcludedTicket(key){
+  const proj=key.split('-')[0].toUpperCase();
+  return EXCLUDED_PROJECTS.includes(proj);
 }
 // ── JIRA STATUS MAPPING from raw Jira status names ──
 function mapJiraStatus(rawStatus){
@@ -1382,8 +1387,10 @@ async function syncJiraFromFile(){
 function renderJira(){
   const hiddenKeys=S.get('h3_j_hidden',[]);
   const hiddenSet=new Set(hiddenKeys);
-  const visible=jiraItems.filter(j=>!hiddenSet.has(j.key));
-  const hidden=jiraItems.filter(j=>hiddenSet.has(j.key));
+  // Also filter out excluded projects and done/closed tickets that slipped through
+  const doneSt=new Set(['closed','done']);
+  const visible=jiraItems.filter(j=>!hiddenSet.has(j.key)&&!isExcludedTicket(j.key)&&!doneSt.has(j.status));
+  const hidden=jiraItems.filter(j=>hiddenSet.has(j.key)&&!isExcludedTicket(j.key));
   const statusOrder={'blocked':0,'waiting-me':1,'in-dev':2,'ready-review':3,'in-review':4,'in-qa':5,'ready-qa':6,'change-mgmt':7,'ready-merge':8,'to-be-deployed':9,'groomed':10,'ready-grooming':11,'ready-dev':12,'new':13,'closed':14};
   const sorted=[...visible].sort((a,b)=>(statusOrder[a.status]??13)-(statusOrder[b.status]??13));
   document.getElementById('nb-jira').textContent=visible.length;
@@ -1448,7 +1455,14 @@ function hideJira(key){
 }
 function unhideJira(key){
   S.set('h3_j_hidden',S.get('h3_j_hidden',[]).filter(k=>k!==key));
+  const wasOpen=document.getElementById('jira-hidden-list')?.style.display!=='none';
   renderJira();
+  if(wasOpen){
+    const list=document.getElementById('jira-hidden-list');
+    const btn=document.getElementById('jira-hidden-btn');
+    if(list)list.style.display='block';
+    if(btn){const count=S.get('h3_j_hidden',[]).length;btn.textContent=`👻 ${count} hidden ticket${count!==1?'s':''} — hide`;}
+  }
 }
 function toggleHiddenJira(){
   const list=document.getElementById('jira-hidden-list');
