@@ -1,0 +1,551 @@
+[
+  {
+    "key": "BSWH-211",
+    "summary": "CE Broker credit submission failing with \"Profile does not match license ID\" on test users",
+    "status": "Blocked",
+    "type": "Bug",
+    "assignee": "CJ McBride",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/BSWH-211"
+  },
+  {
+    "key": "PR-2393",
+    "summary": "CE Broker: Profession link update, conditional reporting, and license validation",
+    "status": "Awaiting Decision",
+    "type": "New Feature",
+    "assignee": "Meghan Capiaghi",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-2393"
+  },
+  {
+    "key": "PR-2366",
+    "summary": "Certificate Download Page: Display All Credit Types Linked to a Shared Certificate Template",
+    "status": "Product Backlog",
+    "type": "New Feature",
+    "assignee": "Meghan Capiaghi",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-2366"
+  },
+  {
+    "key": "UR-23",
+    "summary": "Enable Course Relationships",
+    "status": "Ready for Code Review",
+    "type": "Task",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/UR-23"
+  },
+  {
+    "key": "DHA-320",
+    "summary": "Add Government Email Field with Custom Validation",
+    "status": "Blocked",
+    "type": "Task",
+    "assignee": "Gina Buoncristiano",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/DHA-320"
+  },
+  {
+    "key": "UNT-60",
+    "summary": "Custom User Importer",
+    "status": "Ready for Code Review",
+    "type": "Story",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/UNT-60"
+  },
+  {
+    "key": "CISD-3580",
+    "summary": "Test Client",
+    "status": "In Progress",
+    "type": "Task",
+    "assignee": "Jake Pielert",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/CISD-3580"
+  },
+  {
+    "key": "CISD-3332",
+    "summary": "CLONE - Looker Account for Nikita Reyes",
+    "status": "In Progress",
+    "type": "[System] Service request",
+    "assignee": "Jake Pielert",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/CISD-3332"
+  },
+  {
+    "key": "CORE-4998",
+    "summary": "Exposing XML settings to site admins",
+    "status": "Ready for Development",
+    "type": "Story",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/CORE-4998"
+  },
+  {
+    "key": "PR-1895",
+    "summary": "Credit Calculator course object should not be added to a parent course despite being allowed in UI",
+    "status": "Product Backlog",
+    "type": "New Feature",
+    "assignee": "Meghan Capiaghi",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-1895"
+  },
+  {
+    "key": "PR-1806",
+    "summary": "Allow DLC Staff role to Enable EthosCE Modules",
+    "status": "Product Backlog",
+    "type": "New Feature",
+    "assignee": "Meghan Capiaghi",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-1806"
+  },
+  {
+    "key": "ACLM-21",
+    "summary": "Site validation - Infrastructure (CISD)",
+    "status": "In Progress",
+    "type": "PM Task",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/ACLM-21"
+  },
+  {
+    "key": "CEN-20",
+    "summary": "Site validation - Operations",
+    "status": "Feedback",
+    "type": "PM Task",
+    "assignee": "Gina Buoncristiano",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/CEN-20"
+  },
+  {
+    "key": "CORE-5000",
+    "summary": "Make \"Close x hours before\" setting a course level setting",
+    "status": "New",
+    "type": "Story",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/CORE-5000"
+  },
+  {
+    "key": "EX1-1",
+    "summary": "example story point ticket",
+    "status": "New",
+    "type": "Story",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/EX1-1"
+  },
+  {
+    "key": "AMT-20",
+    "summary": "Site validation - Operations",
+    "status": "In Progress",
+    "type": "PM Task",
+    "assignee": "Gina Buoncristiano",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/AMT-20"
+  },
+  {
+    "key": "ACLM-38",
+    "summary": "Add additional Universal Snippet for Ambassador",
+    "status": "New",
+    "type": "Story",
+    "assignee": "Gina Buoncristiano",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/ACLM-38"
+  },
+  {
+    "key": "IDBR-11",
+    "summary": "Site validation - Launch",
+    "status": "New",
+    "type": "PM Task",
+    "assignee": "Gina Buoncristiano",
+    "reporter": "Melissa Rickards",
+    "url": "https://gocadmium.atlassian.net/browse/IDBR-11"
+  },
+  {
+    "key": "BMHC-1",
+    "summary": "Onboarding",
+    "status": "New",
+    "type": "Epic",
+    "assignee": "Melissa Rickards",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/BMHC-1"
+  },
+  {
+    "key": "AMT-11",
+    "summary": "Enable Profile Blocker (if needed)",
+    "status": "New",
+    "type": "Story",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/AMT-11"
+  },
+  {
+    "key": "CEN-22",
+    "summary": "Onboarding",
+    "status": "New",
+    "type": "Epic",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/CEN-22"
+  },
+  {
+    "key": "AMT-1",
+    "summary": "Onboarding",
+    "status": "New",
+    "type": "Epic",
+    "assignee": "Nikita Reyes",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/AMT-1"
+  },
+  {
+    "key": "UKY-21",
+    "summary": "Onboarding",
+    "status": "New",
+    "type": "Epic",
+    "assignee": "Leah Lomotey",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/UKY-21"
+  },
+  {
+    "key": "SIR-1",
+    "summary": "Onboarding",
+    "status": "New",
+    "type": "Epic",
+    "assignee": "Leah Lomotey",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/SIR-1"
+  },
+  {
+    "key": "OH-418",
+    "summary": "Professional Services (Dual SAML SSO Setup)",
+    "status": "In Progress",
+    "type": "Epic",
+    "assignee": "Gina Buoncristiano",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/OH-418"
+  },
+  {
+    "key": "SH-70",
+    "summary": "Professional Services (SSO)",
+    "status": "Blocked",
+    "type": "Epic",
+    "assignee": "Gina Buoncristiano",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/SH-70"
+  },
+  {
+    "key": "CMN-42",
+    "summary": "Professional Services (Subscriptions)",
+    "status": "Blocked",
+    "type": "Epic",
+    "assignee": "Gina Buoncristiano",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/CMN-42"
+  },
+  {
+    "key": "AKH-84",
+    "summary": "Onboarding (2025)",
+    "status": "New",
+    "type": "Epic",
+    "assignee": "Leah Lomotey",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/AKH-84"
+  },
+  {
+    "key": "FSCDR-1",
+    "summary": "Onboarding",
+    "status": "New",
+    "type": "Epic",
+    "assignee": "Melissa Rickards",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/FSCDR-1"
+  },
+  {
+    "key": "AATS-24",
+    "summary": "Onboarding",
+    "status": "New",
+    "type": "Epic",
+    "assignee": "Nikita Reyes",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/AATS-24"
+  },
+  {
+    "key": "UCH-20",
+    "summary": "Onboarding",
+    "status": "New",
+    "type": "Epic",
+    "assignee": "Leah Lomotey",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/UCH-20"
+  },
+  {
+    "key": "IDBR-17",
+    "summary": "Onboarding",
+    "status": "New",
+    "type": "Epic",
+    "assignee": "Melissa Rickards",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/IDBR-17"
+  },
+  {
+    "key": "CCAD-24",
+    "summary": "Onboarding",
+    "status": "New",
+    "type": "Epic",
+    "assignee": "Melissa Rickards",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/CCAD-24"
+  },
+  {
+    "key": "AHR-41",
+    "summary": "Onboarding",
+    "status": "New",
+    "type": "Epic",
+    "assignee": "Melissa Rickards",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/AHR-41"
+  },
+  {
+    "key": "BMC-22",
+    "summary": "Onboarding",
+    "status": "New",
+    "type": "Epic",
+    "assignee": "Melissa Rickards",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/BMC-22"
+  },
+  {
+    "key": "PBHN-22",
+    "summary": "Onboarding",
+    "status": "New",
+    "type": "Epic",
+    "assignee": "Melissa Rickards",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PBHN-22"
+  },
+  {
+    "key": "ECEL-2",
+    "summary": "Set up live & test environments (CISD)",
+    "status": "New",
+    "type": "PM Task",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/ECEL-2"
+  },
+  {
+    "key": "ECEL-1",
+    "summary": "ECEL Site Onboarding",
+    "status": "New",
+    "type": "Epic",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/ECEL-1"
+  },
+  {
+    "key": "ECEL-21",
+    "summary": "Site validation - Infrastructure (CISD)",
+    "status": "New",
+    "type": "PM Task",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/ECEL-21"
+  },
+  {
+    "key": "ECEL-20",
+    "summary": "Site validation - Operations",
+    "status": "New",
+    "type": "PM Task",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/ECEL-20"
+  },
+  {
+    "key": "ECEL-19",
+    "summary": "Set up production URL (CISD)",
+    "status": "New",
+    "type": "PM Task",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/ECEL-19"
+  },
+  {
+    "key": "ECEL-18",
+    "summary": "Configure Warpwire  (if needed - add-on)",
+    "status": "New",
+    "type": "PM Task",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/ECEL-18"
+  },
+  {
+    "key": "ECEL-17",
+    "summary": "Configure Activity Application (if needed - add-on)",
+    "status": "New",
+    "type": "PM Task",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/ECEL-17"
+  },
+  {
+    "key": "ECEL-16",
+    "summary": "Configure Faculty Forms (if needed - add-on)",
+    "status": "New",
+    "type": "PM Task",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/ECEL-16"
+  },
+  {
+    "key": "ECEL-15",
+    "summary": "Configure Credit Reporters (if needed - add-on)",
+    "status": "New",
+    "type": "PM Task",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/ECEL-15"
+  },
+  {
+    "key": "ECEL-14",
+    "summary": "Map PARS/JA PARS Learner Counts  (if needed - add-on) (DEV)",
+    "status": "New",
+    "type": "Story",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/ECEL-14"
+  },
+  {
+    "key": "ECEL-13",
+    "summary": "Enable Price Per Role (if needed) (DEV)",
+    "status": "New",
+    "type": "Story",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/ECEL-13"
+  },
+  {
+    "key": "ECEL-12",
+    "summary": "Set up eCommerce (if needed - add-on)",
+    "status": "New",
+    "type": "PM Task",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/ECEL-12"
+  },
+  {
+    "key": "ECEL-11",
+    "summary": "Enable Profile Blocker (if needed) (DEV)",
+    "status": "New",
+    "type": "Story",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/ECEL-11"
+  },
+  {
+    "key": "ECEL-10",
+    "summary": "Create Certificate Templates",
+    "status": "New",
+    "type": "PM Task",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/ECEL-10"
+  },
+  {
+    "key": "ECEL-9",
+    "summary": "Set up Site Catalog",
+    "status": "New",
+    "type": "PM Task",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/ECEL-9"
+  },
+  {
+    "key": "ECEL-8",
+    "summary": "Set up Contact Us form",
+    "status": "New",
+    "type": "PM Task",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/ECEL-8"
+  },
+  {
+    "key": "ECEL-7",
+    "summary": "Setup Client DKIM (CISD)",
+    "status": "New",
+    "type": "PM Task",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/ECEL-7"
+  },
+  {
+    "key": "ECEL-6",
+    "summary": "System Emails",
+    "status": "New",
+    "type": "PM Task",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/ECEL-6"
+  },
+  {
+    "key": "ECEL-5",
+    "summary": "Set up Google Analytics",
+    "status": "New",
+    "type": "PM Task",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/ECEL-5"
+  },
+  {
+    "key": "ECEL-4",
+    "summary": "Onboarding Web Design",
+    "status": "New",
+    "type": "PM Task",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/ECEL-4"
+  },
+  {
+    "key": "ECEL-3",
+    "summary": "Site Setup Ticket based on LRD (DEV)",
+    "status": "New",
+    "type": "Story",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/ECEL-3"
+  },
+  {
+    "key": "TU24-1",
+    "summary": "Test Issue",
+    "status": "New",
+    "type": "PM Task",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/TU24-1"
+  },
+  {
+    "key": "TPFG-1",
+    "summary": "test ticket",
+    "status": "New",
+    "type": "Story",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/TPFG-1"
+  },
+  {
+    "key": "INO-36",
+    "summary": "Faculty Are Not Publicly Displayed on Sessions",
+    "status": "Ready for Grooming",
+    "type": "Task",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/INO-36"
+  },
+  {
+    "key": "SPP-29",
+    "summary": "Setup DKIM  for emails",
+    "status": "New",
+    "type": "Task",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/SPP-29"
+  }
+]
