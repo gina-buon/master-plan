@@ -570,7 +570,23 @@ select{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='ht
   <label class="fl">Ticket key</label><input type="text" id="ji-key" placeholder="PROJ-123" style="font-family:var(--mono)">
   <label class="fl">Summary</label><input type="text" id="ji-sum" placeholder="Brief description">
   <label class="fl">Status</label>
-  <select id="ji-st"><option value="watching">New</option><option value="ready-for-dev">Ready for Dev</option><option value="in-progress">In Dev</option><option value="in-review">To Be Deployed</option><option value="blocked">Blocked</option><option value="waiting-me">Waiting for Customer</option><option value="grooming">Grooming</option><option value="pm-scoping">PM Scoping</option><option value="done">Done</option></select>
+  <select id="ji-st">
+    <option value="new">New</option>
+    <option value="ready-grooming">Ready for Grooming</option>
+    <option value="groomed">Groomed</option>
+    <option value="ready-dev">Ready for Dev</option>
+    <option value="in-dev">In Dev</option>
+    <option value="ready-review">Ready for Code Review</option>
+    <option value="in-review">In Code Review</option>
+    <option value="ready-qa">Ready for QA</option>
+    <option value="in-qa">In QA</option>
+    <option value="change-mgmt">Change Management</option>
+    <option value="ready-merge">Ready for Merge</option>
+    <option value="to-be-deployed">To Be Deployed</option>
+    <option value="waiting-me">Waiting for Customer</option>
+    <option value="blocked">Blocked</option>
+    <option value="closed">Closed</option>
+  </select>
   <label class="fl">Notes (optional)</label><textarea id="ji-notes" placeholder="Why you're watching, what to look for..."></textarea>
   <div class="mfoot"><button class="btn" onclick="cm('m-jira')">Cancel</button><button class="btn btn-p" onclick="saveJira()">Save</button></div>
 </div></div>
@@ -1257,15 +1273,21 @@ function delTask(id){if(!confirm('Delete?'))return;tasks=tasks.filter(x=>x.id!==
 // ═══════════════════════════════════════
 const JBASE='https://gocadmium.atlassian.net/browse/';
 const JST={
-  blocked:{l:'Blocked',c:'br'},
-  'waiting-me':{l:'Waiting for Customer',c:'ba'},
-  'in-progress':{l:'In Dev',c:'bb'},
-  'in-review':{l:'To Be Deployed',c:'bp'},
-  'ready-for-dev':{l:'Ready for Dev',c:'bt'},
-  grooming:{l:'Grooming',c:'ba'},
-  'pm-scoping':{l:'PM Scoping',c:'ba'},
-  watching:{l:'New',c:'bgr'},
-  done:{l:'Done',c:'bg'}
+  'blocked':       {l:'Blocked',          c:'br'},
+  'new':           {l:'New',              c:'bgr'},
+  'ready-grooming':{l:'Ready for Grooming',c:'ba'},
+  'groomed':       {l:'Groomed',          c:'ba'},
+  'ready-dev':     {l:'Ready for Dev',    c:'bt'},
+  'in-dev':        {l:'In Dev',           c:'bb'},
+  'ready-review':  {l:'Ready for Code Review',c:'bp'},
+  'in-review':     {l:'In Code Review',   c:'bp'},
+  'ready-qa':      {l:'Ready for QA',     c:'bt'},
+  'in-qa':         {l:'In QA',            c:'bb'},
+  'change-mgmt':   {l:'Change Management',c:'ba'},
+  'ready-merge':   {l:'Ready for Merge',  c:'bt'},
+  'to-be-deployed':{l:'To Be Deployed',   c:'bg'},
+  'closed':        {l:'Closed',           c:'bg'},
+  'waiting-me':    {l:'Waiting for Customer',c:'ba'},
 };
 const INTERNAL_PROJECTS=['PR','CISD','CORE','LXT','ECEDEALS'];
 function isInternalTicket(key){
@@ -1274,17 +1296,24 @@ function isInternalTicket(key){
 }
 // ── JIRA STATUS MAPPING from raw Jira status names ──
 function mapJiraStatus(rawStatus){
-  if(!rawStatus)return'watching';
-  const s=rawStatus.toLowerCase();
-  if(s.includes('block'))return'blocked';
+  if(!rawStatus)return'new';
+  const s=rawStatus.toLowerCase().trim();
+  if(s==='blocked')return'blocked';
+  if(s==='new')return'new';
+  if(s==='ready for grooming')return'ready-grooming';
+  if(s==='groomed')return'groomed';
+  if(s==='ready for dev')return'ready-dev';
+  if(s==='in dev'||s==='in development'||s==='in progress')return'in-dev';
+  if(s==='ready for code review')return'ready-review';
+  if(s==='in code review'||s==='in review')return'in-review';
+  if(s==='ready for qa')return'ready-qa';
+  if(s==='in qa'||s==='in testing')return'in-qa';
+  if(s==='change management')return'change-mgmt';
+  if(s==='ready for merge')return'ready-merge';
+  if(s==='to be deployed')return'to-be-deployed';
+  if(s==='closed'||s==='done'||s==='resolved')return'closed';
   if(s.includes('waiting for customer')||s.includes('waiting on customer'))return'waiting-me';
-  if(s.includes('in dev')||s.includes('in progress')||s.includes('in development'))return'in-progress';
-  if(s.includes('to be deployed')||s.includes('review')||s.includes('testing'))return'in-review';
-  if(s.includes('ready for dev'))return'ready-for-dev';
-  if(s.includes('grooming'))return'grooming';
-  if(s.includes('pm scoping')||s.includes('scoping'))return'pm-scoping';
-  if(s.includes('done')||s.includes('closed')||s.includes('resolved'))return'done';
-  return'watching'; // New, Open, To Do etc.
+  return'new';
 }
 
 async function syncJiraFromFile(){
@@ -1292,7 +1321,7 @@ async function syncJiraFromFile(){
   const status=document.getElementById('jira-sync-status');
   if(btn)btn.textContent='🔄 Syncing...';
   try{
-    const res=await fetch('https://gina-buon.github.io/master-plan/jira-data.json?nocache='+Date.now());
+    const res=await fetch('https://gina-buon.github.io/master-plan/jira-data.json',{cache:'no-store'});
     if(!res.ok)throw new Error('Could not fetch jira-data.json');
     const fresh=await res.json();
 
@@ -1351,16 +1380,31 @@ async function syncJiraFromFile(){
 }
 
 function renderJira(){
-  const statusOrder={'blocked':0,'waiting-me':1,'in-progress':2,'in-review':3,'grooming':4,'pm-scoping':4,'ready-for-dev':4,'watching':5,'done':6};
-  const sorted=[...jiraItems].sort((a,b)=>(statusOrder[a.status]??5)-(statusOrder[b.status]??5));
-  document.getElementById('nb-jira').textContent=jiraItems.length;const c=document.getElementById('jira-c');
-  if(!jiraItems.length){c.innerHTML=`<div class="empty"><div class="empty-i">🎟️</div>No tickets yet</div>`;return}
-  c.innerHTML=`<table class="jtbl"><thead><tr><th>Ticket</th><th>Summary</th><th>Status</th><th>Notes</th><th></th></tr></thead><tbody id="jira-tb"></tbody></table>`;
+  const hiddenKeys=S.get('h3_j_hidden',[]);
+  const hiddenSet=new Set(hiddenKeys);
+  const visible=jiraItems.filter(j=>!hiddenSet.has(j.key));
+  const hidden=jiraItems.filter(j=>hiddenSet.has(j.key));
+  const statusOrder={'blocked':0,'waiting-me':1,'in-dev':2,'ready-review':3,'in-review':4,'in-qa':5,'ready-qa':6,'change-mgmt':7,'ready-merge':8,'to-be-deployed':9,'groomed':10,'ready-grooming':11,'ready-dev':12,'new':13,'closed':14};
+  const sorted=[...visible].sort((a,b)=>(statusOrder[a.status]??13)-(statusOrder[b.status]??13));
+  document.getElementById('nb-jira').textContent=visible.length;
+  const c=document.getElementById('jira-c');
+  if(!jiraItems.length){c.innerHTML=`<div class="empty"><div class="empty-i">🎟️</div>No tickets yet — auto-syncs weekday mornings</div>`;return}
+
+  let html=`<table class="jtbl"><thead><tr><th>Ticket</th><th>Summary</th><th>Status</th><th>Notes</th><th></th></tr></thead><tbody id="jira-tb"></tbody></table>`;
+
+  // Hidden tickets section
+  if(hidden.length){
+    html+=`<div style="margin-top:14px;border-top:1px solid var(--border);padding-top:12px">
+      <button class="btn btn-g btn-sm" style="font-size:11px;margin-bottom:8px" onclick="toggleHiddenJira()" id="jira-hidden-btn">👻 ${hidden.length} hidden ticket${hidden.length!==1?'s':''} — show</button>
+      <div id="jira-hidden-list" style="display:none"></div>
+    </div>`;
+  }
+
+  c.innerHTML=html;
   const tb=document.getElementById('jira-tb');
   sorted.forEach(j=>{
     const st=JST[j.status]||{l:j.status,c:'bgr'};
     const internal=isInternalTicket(j.key);
-    // Cadmium Red for internal, Charcoal for client
     const keyStyle=internal
       ?'background:#F5EBE9;color:#93331F;border:1px solid #C4705A'
       :'background:#ECEDF1;color:#272A36;border:1px solid #9AA0B0';
@@ -1372,14 +1416,67 @@ function renderJira(){
       <td>${esc(j.summary)}</td>
       <td><span class="badge ${st.c}">${st.l}</span></td>
       <td style="font-size:11.5px;color:var(--text3);max-width:150px">${esc(j.notes||'—')}</td>
-      <td><div class="j-acts"><button class="btn btn-g btn-sm" onclick="openEditJira('${j.id}')">✏️</button><button class="btn btn-g btn-sm btn-del" onclick="delJira('${j.id}')">🗑</button></div></td>`;
+      <td><div class="j-acts">
+        <button class="btn btn-g btn-sm" title="Hide ticket" onclick="hideJira('${j.key}');event.stopPropagation()">👻</button>
+        <button class="btn btn-g btn-sm" onclick="openEditJira('${j.id}');event.stopPropagation()">✏️</button>
+        <button class="btn btn-g btn-sm btn-del" onclick="delJira('${j.id}');event.stopPropagation()">🗑</button>
+      </div></td>`;
     tb.appendChild(tr);
   });
+
+  // Render hidden list
+  if(hidden.length){
+    const hl=document.getElementById('jira-hidden-list');
+    if(hl){
+      hl.innerHTML=hidden.map(j=>{
+        const internal=isInternalTicket(j.key);
+        const keyStyle=internal?'background:#F5EBE9;color:#93331F;border:1px solid #C4705A':'background:#ECEDF1;color:#272A36;border:1px solid #9AA0B0';
+        return`<div style="display:flex;align-items:center;gap:8px;padding:5px 0;border-bottom:1px solid var(--border);opacity:0.6">
+          <a href="${JBASE}${encodeURIComponent(j.key)}" target="_blank" style="${keyStyle};font-family:var(--mono);font-size:10px;font-weight:500;padding:2px 6px;border-radius:4px;text-decoration:none;white-space:nowrap">${esc(j.key)} ↗</a>
+          <span style="flex:1;font-size:12px;color:var(--text3)">${esc(j.summary)}</span>
+          <button class="btn btn-g btn-sm" style="font-size:10px" onclick="unhideJira('${j.key}')">↩ unhide</button>
+        </div>`;
+      }).join('');
+    }
+  }
 }
-function openAddJira(){eId.j=null;document.getElementById('mj-t').textContent='Add Jira ticket';['ji-key','ji-sum','ji-notes'].forEach(x=>document.getElementById(x).value='');document.getElementById('ji-st').value='watching';document.getElementById('m-jira').classList.add('open');setTimeout(()=>document.getElementById('ji-key').focus(),50)}
+
+function hideJira(key){
+  const hidden=S.get('h3_j_hidden',[]);
+  if(!hidden.includes(key)){S.set('h3_j_hidden',[...hidden,key]);}
+  renderJira();
+}
+function unhideJira(key){
+  S.set('h3_j_hidden',S.get('h3_j_hidden',[]).filter(k=>k!==key));
+  renderJira();
+}
+function toggleHiddenJira(){
+  const list=document.getElementById('jira-hidden-list');
+  const btn=document.getElementById('jira-hidden-btn');
+  if(!list||!btn)return;
+  const showing=list.style.display!=='none';
+  list.style.display=showing?'none':'block';
+  const count=S.get('h3_j_hidden',[]).length;
+  btn.textContent=`👻 ${count} hidden ticket${count!==1?'s':''} — ${showing?'show':'hide'}`;
+}
+
+function openAddJira(){eId.j=null;document.getElementById('mj-t').textContent='Add Jira ticket';['ji-key','ji-sum','ji-notes'].forEach(x=>document.getElementById(x).value='');document.getElementById('ji-st').value='new';document.getElementById('m-jira').classList.add('open');setTimeout(()=>document.getElementById('ji-key').focus(),50)}
 function openEditJira(id){const j=jiraItems.find(x=>x.id===id);if(!j)return;eId.j=id;document.getElementById('mj-t').textContent='Edit ticket';document.getElementById('ji-key').value=j.key;document.getElementById('ji-sum').value=j.summary;document.getElementById('ji-st').value=j.status;document.getElementById('ji-notes').value=j.notes||'';document.getElementById('m-jira').classList.add('open')}
 function saveJira(){const key=document.getElementById('ji-key').value.trim().toUpperCase();if(!key){document.getElementById('ji-key').focus();return}const j={id:eId.j||uid(),key,summary:document.getElementById('ji-sum').value.trim(),status:document.getElementById('ji-st').value,notes:document.getElementById('ji-notes').value.trim()};if(eId.j){jiraItems=jiraItems.map(x=>x.id===eId.j?j:x)}else{jiraItems.push(j)}S.set('h3_j',jiraItems);cm('m-jira');renderJira()}
-function delJira(id){if(!confirm('Remove?'))return;jiraItems=jiraItems.filter(x=>x.id!==id);S.set('h3_j',jiraItems);renderJira()}
+function delJira(id){
+  const j=jiraItems.find(x=>x.id===id);
+  if(!j){alert('Ticket not found.');return;}
+  const autoKeys=new Set(S.get('h3_j_autokeys',[]));
+  if(autoKeys.has(j.key)){
+    if(!confirm(j.key+' is auto-synced and will reappear on next sync. Hide it instead?'))return;
+    hideJira(j.key);
+  } else {
+    if(!confirm('Remove '+j.key+'?'))return;
+    jiraItems=jiraItems.filter(x=>x.id!==id);
+    S.set('h3_j',jiraItems);
+    renderJira();
+  }
+}
 
 // ═══════════════════════════════════════
 // TWILIO
