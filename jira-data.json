@@ -1,5 +1,14 @@
 [
   {
+    "key": "UR-23",
+    "summary": "Enable Course Relationships",
+    "status": "Ready for Code Review",
+    "type": "Task",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/UR-23"
+  },
+  {
     "key": "BSWH-211",
     "summary": "CE Broker credit submission failing with \"Profile does not match license ID\" on test users",
     "status": "Blocked",
@@ -25,15 +34,6 @@
     "assignee": "Meghan Capiaghi",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/PR-2366"
-  },
-  {
-    "key": "UR-23",
-    "summary": "Enable Course Relationships",
-    "status": "Ready for Code Review",
-    "type": "Task",
-    "assignee": "",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/UR-23"
   },
   {
     "key": "DHA-320",
@@ -126,15 +126,6 @@
     "url": "https://gocadmium.atlassian.net/browse/CORE-5000"
   },
   {
-    "key": "EX1-1",
-    "summary": "example story point ticket",
-    "status": "New",
-    "type": "Story",
-    "assignee": "",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/EX1-1"
-  },
-  {
     "key": "AMT-20",
     "summary": "Site validation - Operations",
     "status": "In Progress",
@@ -144,24 +135,6 @@
     "url": "https://gocadmium.atlassian.net/browse/AMT-20"
   },
   {
-    "key": "ACLM-38",
-    "summary": "Add additional Universal Snippet for Ambassador",
-    "status": "New",
-    "type": "Story",
-    "assignee": "Gina Buoncristiano",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/ACLM-38"
-  },
-  {
-    "key": "IDBR-11",
-    "summary": "Site validation - Launch",
-    "status": "New",
-    "type": "PM Task",
-    "assignee": "Gina Buoncristiano",
-    "reporter": "Melissa Rickards",
-    "url": "https://gocadmium.atlassian.net/browse/IDBR-11"
-  },
-  {
     "key": "BMHC-1",
     "summary": "Onboarding",
     "status": "New",
@@ -169,15 +142,6 @@
     "assignee": "Melissa Rickards",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/BMHC-1"
-  },
-  {
-    "key": "AMT-11",
-    "summary": "Enable Profile Blocker (if needed)",
-    "status": "New",
-    "type": "Story",
-    "assignee": "",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/AMT-11"
   },
   {
     "key": "CEN-22",
@@ -216,24 +180,6 @@
     "url": "https://gocadmium.atlassian.net/browse/SIR-1"
   },
   {
-    "key": "OH-418",
-    "summary": "Professional Services (Dual SAML SSO Setup)",
-    "status": "In Progress",
-    "type": "Epic",
-    "assignee": "Gina Buoncristiano",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/OH-418"
-  },
-  {
-    "key": "SH-70",
-    "summary": "Professional Services (SSO)",
-    "status": "Blocked",
-    "type": "Epic",
-    "assignee": "Gina Buoncristiano",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/SH-70"
-  },
-  {
     "key": "CMN-42",
     "summary": "Professional Services (Subscriptions)",
     "status": "Blocked",
@@ -259,51 +205,6 @@
     "assignee": "Melissa Rickards",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/FSCDR-1"
-  },
-  {
-    "key": "AATS-24",
-    "summary": "Onboarding",
-    "status": "New",
-    "type": "Epic",
-    "assignee": "Nikita Reyes",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/AATS-24"
-  },
-  {
-    "key": "UCH-20",
-    "summary": "Onboarding",
-    "status": "New",
-    "type": "Epic",
-    "assignee": "Leah Lomotey",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/UCH-20"
-  },
-  {
-    "key": "IDBR-17",
-    "summary": "Onboarding",
-    "status": "New",
-    "type": "Epic",
-    "assignee": "Melissa Rickards",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/IDBR-17"
-  },
-  {
-    "key": "CCAD-24",
-    "summary": "Onboarding",
-    "status": "New",
-    "type": "Epic",
-    "assignee": "Melissa Rickards",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/CCAD-24"
-  },
-  {
-    "key": "AHR-41",
-    "summary": "Onboarding",
-    "status": "New",
-    "type": "Epic",
-    "assignee": "Melissa Rickards",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/AHR-41"
   },
   {
     "key": "BMC-22",
@@ -520,32 +421,5 @@
     "assignee": "",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/TU24-1"
-  },
-  {
-    "key": "TPFG-1",
-    "summary": "test ticket",
-    "status": "New",
-    "type": "Story",
-    "assignee": "",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/TPFG-1"
-  },
-  {
-    "key": "INO-36",
-    "summary": "Faculty Are Not Publicly Displayed on Sessions",
-    "status": "Ready for Grooming",
-    "type": "Task",
-    "assignee": "",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/INO-36"
-  },
-  {
-    "key": "SPP-29",
-    "summary": "Setup DKIM  for emails",
-    "status": "New",
-    "type": "Task",
-    "assignee": "",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/SPP-29"
   }
 ]
