@@ -1,5 +1,14 @@
 [
   {
+    "key": "DHA-320",
+    "summary": "EthosCE - Add Government Email Custom Field with Domain Validation",
+    "status": "Ready for Dev",
+    "type": "Task",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/DHA-320"
+  },
+  {
     "key": "UR-23",
     "summary": "Enable Course Relationships",
     "status": "Ready for Code Review",
@@ -34,15 +43,6 @@
     "assignee": "Meghan Capiaghi",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/PR-2366"
-  },
-  {
-    "key": "DHA-320",
-    "summary": "Add Government Email Field with Custom Validation",
-    "status": "Blocked",
-    "type": "Task",
-    "assignee": "Gina Buoncristiano",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/DHA-320"
   },
   {
     "key": "UNT-60",
