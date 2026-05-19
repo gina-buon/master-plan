@@ -1,5 +1,23 @@
 [
   {
+    "key": "CMN-42",
+    "summary": "Professional Services (Subscriptions)",
+    "status": "In Progress",
+    "type": "Epic",
+    "assignee": "Gina Buoncristiano",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/CMN-42"
+  },
+  {
+    "key": "CMN-45",
+    "summary": "Deployment 2026 - 05- 20",
+    "status": "Change Management",
+    "type": "Cloud deployment",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/CMN-45"
+  },
+  {
     "key": "DHA-320",
     "summary": "EthosCE - Add Government Email Custom Field with Domain Validation",
     "status": "Ready for Dev",
@@ -178,15 +196,6 @@
     "assignee": "Leah Lomotey",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/SIR-1"
-  },
-  {
-    "key": "CMN-42",
-    "summary": "Professional Services (Subscriptions)",
-    "status": "Blocked",
-    "type": "Epic",
-    "assignee": "Gina Buoncristiano",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/CMN-42"
   },
   {
     "key": "AKH-84",
