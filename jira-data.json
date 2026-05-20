@@ -1,5 +1,14 @@
 [
   {
+    "key": "BSWH-211",
+    "summary": "CE Broker credit submission failing with \"Profile does not match license ID\" on test users",
+    "status": "Blocked",
+    "type": "Bug",
+    "assignee": "CJ McBride",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/BSWH-211"
+  },
+  {
     "key": "CMN-42",
     "summary": "Professional Services (Subscriptions)",
     "status": "In Progress",
@@ -7,15 +16,6 @@
     "assignee": "Gina Buoncristiano",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/CMN-42"
-  },
-  {
-    "key": "CMN-45",
-    "summary": "Deployment 2026 - 05- 20",
-    "status": "Change Management",
-    "type": "Cloud deployment",
-    "assignee": "",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/CMN-45"
   },
   {
     "key": "DHA-320",
@@ -34,15 +34,6 @@
     "assignee": "",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/UR-23"
-  },
-  {
-    "key": "BSWH-211",
-    "summary": "CE Broker credit submission failing with \"Profile does not match license ID\" on test users",
-    "status": "Blocked",
-    "type": "Bug",
-    "assignee": "CJ McBride",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/BSWH-211"
   },
   {
     "key": "PR-2393",
