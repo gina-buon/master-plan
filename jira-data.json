@@ -1,5 +1,14 @@
 [
   {
+    "key": "UNT-60",
+    "summary": "Custom User Importer",
+    "status": "Ready For QA",
+    "type": "Story",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/UNT-60"
+  },
+  {
     "key": "BSWH-211",
     "summary": "CE Broker credit submission failing with \"Profile does not match license ID\" on test users",
     "status": "Blocked",
@@ -7,6 +16,15 @@
     "assignee": "CJ McBride",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/BSWH-211"
+  },
+  {
+    "key": "PR-2457",
+    "summary": "CE Broker Reporting: Add Subject Area Field to Course Configuration",
+    "status": "New",
+    "type": "New Feature",
+    "assignee": "Meghan Capiaghi",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-2457"
   },
   {
     "key": "CMN-42",
@@ -52,15 +70,6 @@
     "assignee": "Meghan Capiaghi",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/PR-2366"
-  },
-  {
-    "key": "UNT-60",
-    "summary": "Custom User Importer",
-    "status": "Ready for Code Review",
-    "type": "Story",
-    "assignee": "",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/UNT-60"
   },
   {
     "key": "CISD-3580",
