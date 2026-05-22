@@ -9,31 +9,13 @@
     "url": "https://gocadmium.atlassian.net/browse/UNT-60"
   },
   {
-    "key": "BSWH-211",
-    "summary": "CE Broker credit submission failing with \"Profile does not match license ID\" on test users",
-    "status": "Blocked",
-    "type": "Bug",
-    "assignee": "CJ McBride",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/BSWH-211"
-  },
-  {
     "key": "PR-2457",
     "summary": "CE Broker Reporting: Add Subject Area Field to Course Configuration",
-    "status": "New",
+    "status": "Awaiting Decision",
     "type": "New Feature",
     "assignee": "Meghan Capiaghi",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/PR-2457"
-  },
-  {
-    "key": "CMN-42",
-    "summary": "Professional Services (Subscriptions)",
-    "status": "In Progress",
-    "type": "Epic",
-    "assignee": "Gina Buoncristiano",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/CMN-42"
   },
   {
     "key": "DHA-320",
@@ -43,6 +25,24 @@
     "assignee": "",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/DHA-320"
+  },
+  {
+    "key": "BSWH-211",
+    "summary": "CE Broker credit submission failing with \"Profile does not match license ID\" on test users",
+    "status": "Blocked",
+    "type": "Bug",
+    "assignee": "CJ McBride",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/BSWH-211"
+  },
+  {
+    "key": "CMN-42",
+    "summary": "Professional Services (Subscriptions)",
+    "status": "In Progress",
+    "type": "Epic",
+    "assignee": "Gina Buoncristiano",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/CMN-42"
   },
   {
     "key": "UR-23",
