@@ -1,14 +1,5 @@
 [
   {
-    "key": "UNT-60",
-    "summary": "Custom User Importer",
-    "status": "Ready For QA",
-    "type": "Story",
-    "assignee": "",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/UNT-60"
-  },
-  {
     "key": "PR-2457",
     "summary": "CE Broker Reporting: Add Subject Area Field to Course Configuration",
     "status": "Awaiting Decision",
