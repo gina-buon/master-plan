@@ -1,5 +1,32 @@
 [
   {
+    "key": "UNT-61",
+    "summary": "Deployment 2026 - 05- 27",
+    "status": "Change Management",
+    "type": "Cloud deployment",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/UNT-61"
+  },
+  {
+    "key": "LCH-21",
+    "summary": "Deployment 2026 05 27",
+    "status": "Change Management",
+    "type": "Cloud deployment",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/LCH-21"
+  },
+  {
+    "key": "NGHS-24",
+    "summary": "Deployment 2026 05 27",
+    "status": "Change Management",
+    "type": "Cloud deployment",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/NGHS-24"
+  },
+  {
     "key": "PR-2457",
     "summary": "CE Broker Reporting: Add Subject Area Field to Course Configuration",
     "status": "Awaiting Decision",
@@ -20,9 +47,9 @@
   {
     "key": "BSWH-211",
     "summary": "CE Broker credit submission failing with \"Profile does not match license ID\" on test users",
-    "status": "Blocked",
+    "status": "Ready for Dev",
     "type": "Bug",
-    "assignee": "CJ McBride",
+    "assignee": "Gina Buoncristiano",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/BSWH-211"
   },
