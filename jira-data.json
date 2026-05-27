@@ -1,30 +1,21 @@
 [
   {
-    "key": "UNT-61",
-    "summary": "Deployment 2026 - 05- 27",
-    "status": "Change Management",
-    "type": "Cloud deployment",
-    "assignee": "",
+    "key": "DHA-320",
+    "summary": "EthosCE - Add Government Email Custom Field with Domain Validation",
+    "status": "Ready for Code Review",
+    "type": "Task",
+    "assignee": "Karl Yoder",
     "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/UNT-61"
+    "url": "https://gocadmium.atlassian.net/browse/DHA-320"
   },
   {
-    "key": "LCH-21",
-    "summary": "Deployment 2026 05 27",
-    "status": "Change Management",
-    "type": "Cloud deployment",
+    "key": "UR-23",
+    "summary": "Enable Course Relationships",
+    "status": "Ready for Code Review",
+    "type": "Task",
     "assignee": "",
     "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/LCH-21"
-  },
-  {
-    "key": "NGHS-24",
-    "summary": "Deployment 2026 05 27",
-    "status": "Change Management",
-    "type": "Cloud deployment",
-    "assignee": "",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/NGHS-24"
+    "url": "https://gocadmium.atlassian.net/browse/UR-23"
   },
   {
     "key": "PR-2457",
@@ -34,15 +25,6 @@
     "assignee": "Meghan Capiaghi",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/PR-2457"
-  },
-  {
-    "key": "DHA-320",
-    "summary": "EthosCE - Add Government Email Custom Field with Domain Validation",
-    "status": "Ready for Dev",
-    "type": "Task",
-    "assignee": "",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/DHA-320"
   },
   {
     "key": "BSWH-211",
@@ -61,15 +43,6 @@
     "assignee": "Gina Buoncristiano",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/CMN-42"
-  },
-  {
-    "key": "UR-23",
-    "summary": "Enable Course Relationships",
-    "status": "Ready for Code Review",
-    "type": "Task",
-    "assignee": "",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/UR-23"
   },
   {
     "key": "PR-2393",
