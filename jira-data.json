@@ -2,29 +2,29 @@
   {
     "key": "DHA-320",
     "summary": "EthosCE - Add Government Email Custom Field with Domain Validation",
-    "status": "Ready for Code Review",
+    "status": "Ready for Dev",
     "type": "Task",
-    "assignee": "Karl Yoder",
+    "assignee": "Vinesh Malviya",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/DHA-320"
   },
   {
-    "key": "UR-23",
-    "summary": "Enable Course Relationships",
-    "status": "Ready for Code Review",
-    "type": "Task",
-    "assignee": "",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/UR-23"
-  },
-  {
     "key": "PR-2457",
     "summary": "CE Broker Reporting: Add Subject Area Field to Course Configuration",
-    "status": "Awaiting Decision",
+    "status": "Queued for Engineering",
     "type": "New Feature",
     "assignee": "Meghan Capiaghi",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/PR-2457"
+  },
+  {
+    "key": "PR-2393",
+    "summary": "CE Broker: Profession link update, conditional reporting, and license validation",
+    "status": "Awaiting Decision",
+    "type": "New Feature",
+    "assignee": "Meghan Capiaghi",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-2393"
   },
   {
     "key": "BSWH-211",
@@ -43,15 +43,6 @@
     "assignee": "Gina Buoncristiano",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/CMN-42"
-  },
-  {
-    "key": "PR-2393",
-    "summary": "CE Broker: Profession link update, conditional reporting, and license validation",
-    "status": "Awaiting Decision",
-    "type": "New Feature",
-    "assignee": "Meghan Capiaghi",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/PR-2393"
   },
   {
     "key": "PR-2366",
