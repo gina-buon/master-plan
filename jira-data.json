@@ -1,14 +1,5 @@
 [
   {
-    "key": "DHA-320",
-    "summary": "EthosCE - Add Government Email Custom Field with Domain Validation",
-    "status": "Ready for Dev",
-    "type": "Task",
-    "assignee": "Vinesh Malviya",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/DHA-320"
-  },
-  {
     "key": "PR-2457",
     "summary": "CE Broker Reporting: Add Subject Area Field to Course Configuration",
     "status": "Queued for Engineering",
