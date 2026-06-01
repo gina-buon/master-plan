@@ -1,5 +1,23 @@
 [
   {
+    "key": "CISD-3649",
+    "summary": "IT Test Client",
+    "status": "Waiting for customer",
+    "type": "Task",
+    "assignee": "Jake Pielert",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/CISD-3649"
+  },
+  {
+    "key": "CISD-3332",
+    "summary": "CLONE - Looker Account for Nikita Reyes",
+    "status": "In Progress",
+    "type": "[System] Service request",
+    "assignee": "Jake Pielert",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/CISD-3332"
+  },
+  {
     "key": "PR-2457",
     "summary": "CE Broker Reporting: Add Subject Area Field to Course Configuration",
     "status": "Queued for Engineering",
@@ -52,15 +70,6 @@
     "assignee": "Jake Pielert",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/CISD-3580"
-  },
-  {
-    "key": "CISD-3332",
-    "summary": "CLONE - Looker Account for Nikita Reyes",
-    "status": "In Progress",
-    "type": "[System] Service request",
-    "assignee": "Jake Pielert",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/CISD-3332"
   },
   {
     "key": "CORE-4998",
