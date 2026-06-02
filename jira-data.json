@@ -1,12 +1,12 @@
 [
   {
-    "key": "CISD-3649",
-    "summary": "IT Test Client",
-    "status": "Waiting for customer",
-    "type": "Task",
-    "assignee": "Jake Pielert",
+    "key": "DHA-321",
+    "summary": "Deployment 2026 - 06- 03",
+    "status": "New",
+    "type": "Cloud deployment",
+    "assignee": "",
     "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/CISD-3649"
+    "url": "https://gocadmium.atlassian.net/browse/DHA-321"
   },
   {
     "key": "CISD-3332",
@@ -61,15 +61,6 @@
     "assignee": "Meghan Capiaghi",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/PR-2366"
-  },
-  {
-    "key": "CISD-3580",
-    "summary": "Test Client",
-    "status": "In Progress",
-    "type": "Task",
-    "assignee": "Jake Pielert",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/CISD-3580"
   },
   {
     "key": "CORE-4998",
