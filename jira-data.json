@@ -1,5 +1,23 @@
 [
   {
+    "key": "BSWH-211",
+    "summary": "CE Broker credit submission failing with \"Profile does not match license ID\" on test users",
+    "status": "Ready for Dev",
+    "type": "Bug",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/BSWH-211"
+  },
+  {
+    "key": "PR-2393",
+    "summary": "CE Broker: Profession link update, conditional reporting, and license validation",
+    "status": "Awaiting Decision",
+    "type": "New Feature",
+    "assignee": "Meghan Capiaghi",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-2393"
+  },
+  {
     "key": "DHA-321",
     "summary": "Deployment 2026 - 06- 03",
     "status": "New",
@@ -25,24 +43,6 @@
     "assignee": "Meghan Capiaghi",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/PR-2457"
-  },
-  {
-    "key": "PR-2393",
-    "summary": "CE Broker: Profession link update, conditional reporting, and license validation",
-    "status": "Awaiting Decision",
-    "type": "New Feature",
-    "assignee": "Meghan Capiaghi",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/PR-2393"
-  },
-  {
-    "key": "BSWH-211",
-    "summary": "CE Broker credit submission failing with \"Profile does not match license ID\" on test users",
-    "status": "Ready for Dev",
-    "type": "Bug",
-    "assignee": "Gina Buoncristiano",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/BSWH-211"
   },
   {
     "key": "CMN-42",
