@@ -1,5 +1,14 @@
 [
   {
+    "key": "CISD-3677",
+    "summary": "Wiley Publishing",
+    "status": "Waiting for customer",
+    "type": "Task",
+    "assignee": "Jake Pielert",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/CISD-3677"
+  },
+  {
     "key": "BSWH-211",
     "summary": "CE Broker credit submission failing with \"Profile does not match license ID\" on test users",
     "status": "Ready for Dev",
