@@ -1,5 +1,41 @@
 [
   {
+    "key": "BSWH-211",
+    "summary": "CE Broker credit submission failing with \"Profile does not match license ID\" on test users",
+    "status": "Blocked",
+    "type": "Bug",
+    "assignee": "Gina Buoncristiano",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/BSWH-211"
+  },
+  {
+    "key": "LXT-495",
+    "summary": "UR- United Regional",
+    "status": "Acknowledged",
+    "type": "EthosCE Training",
+    "assignee": "Pamela Hernandez",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/LXT-495"
+  },
+  {
+    "key": "UR-24",
+    "summary": "Deployment 2026 06 10",
+    "status": "Change Management",
+    "type": "Cloud deployment",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/UR-24"
+  },
+  {
+    "key": "DHA-321",
+    "summary": "Deployment 2026 - 06- 10",
+    "status": "Change Management",
+    "type": "Cloud deployment",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/DHA-321"
+  },
+  {
     "key": "CISD-3677",
     "summary": "Wiley Publishing",
     "status": "Waiting for customer",
@@ -9,15 +45,6 @@
     "url": "https://gocadmium.atlassian.net/browse/CISD-3677"
   },
   {
-    "key": "BSWH-211",
-    "summary": "CE Broker credit submission failing with \"Profile does not match license ID\" on test users",
-    "status": "Ready for Dev",
-    "type": "Bug",
-    "assignee": "",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/BSWH-211"
-  },
-  {
     "key": "PR-2393",
     "summary": "CE Broker: Profession link update, conditional reporting, and license validation",
     "status": "Awaiting Decision",
@@ -25,15 +52,6 @@
     "assignee": "Meghan Capiaghi",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/PR-2393"
-  },
-  {
-    "key": "DHA-321",
-    "summary": "Deployment 2026 - 06- 03",
-    "status": "New",
-    "type": "Cloud deployment",
-    "assignee": "",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/DHA-321"
   },
   {
     "key": "CISD-3332",
