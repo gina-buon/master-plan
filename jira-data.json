@@ -9,15 +9,6 @@
     "url": "https://gocadmium.atlassian.net/browse/PR-2393"
   },
   {
-    "key": "ABG-43",
-    "summary": "Remove EthosCE University Credit",
-    "status": "Ready for Code Review",
-    "type": "Story",
-    "assignee": "",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/ABG-43"
-  },
-  {
     "key": "ABG-42",
     "summary": "Add New User Profile Field ",
     "status": "Ready for Dev",
@@ -34,15 +25,6 @@
     "assignee": "Gina Buoncristiano",
     "reporter": "Nikita Reyes",
     "url": "https://gocadmium.atlassian.net/browse/WIL-2"
-  },
-  {
-    "key": "BSWH-211",
-    "summary": "CE Broker credit submission failing with \"Profile does not match license ID\" on test users",
-    "status": "Blocked",
-    "type": "Bug",
-    "assignee": "Gina Buoncristiano",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/BSWH-211"
   },
   {
     "key": "DHA-324",
