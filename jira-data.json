@@ -1,5 +1,14 @@
 [
   {
+    "key": "ABG-42",
+    "summary": "Add New User Profile Field ",
+    "status": "Ready for Code Review",
+    "type": "Story",
+    "assignee": "Gina Buoncristiano",
+    "reporter": "Leah Lomotey",
+    "url": "https://gocadmium.atlassian.net/browse/ABG-42"
+  },
+  {
     "key": "PR-2393",
     "summary": "CE Broker: Profession link update, conditional reporting, and license validation",
     "status": "In Progress",
@@ -7,15 +16,6 @@
     "assignee": "Meghan Capiaghi",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/PR-2393"
-  },
-  {
-    "key": "ABG-42",
-    "summary": "Add New User Profile Field ",
-    "status": "Ready for Dev",
-    "type": "Story",
-    "assignee": "Gina Buoncristiano",
-    "reporter": "Leah Lomotey",
-    "url": "https://gocadmium.atlassian.net/browse/ABG-42"
   },
   {
     "key": "WIL-2",
