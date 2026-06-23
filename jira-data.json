@@ -9,15 +9,6 @@
     "url": "https://gocadmium.atlassian.net/browse/ABG-42"
   },
   {
-    "key": "PR-2393",
-    "summary": "CE Broker: Profession link update, conditional reporting, and license validation",
-    "status": "In Progress",
-    "type": "New Feature",
-    "assignee": "Meghan Capiaghi",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/PR-2393"
-  },
-  {
     "key": "WIL-2",
     "summary": "Site Setup Ticket based on LRD",
     "status": "Ready for Dev",
@@ -25,6 +16,15 @@
     "assignee": "Gina Buoncristiano",
     "reporter": "Nikita Reyes",
     "url": "https://gocadmium.atlassian.net/browse/WIL-2"
+  },
+  {
+    "key": "PR-2393",
+    "summary": "CE Broker: Profession link update, conditional reporting, and license validation",
+    "status": "In Progress",
+    "type": "New Feature",
+    "assignee": "Meghan Capiaghi",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-2393"
   },
   {
     "key": "DHA-324",
