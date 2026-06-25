@@ -1,5 +1,14 @@
 [
   {
+    "key": "DHA-324",
+    "summary": "Update Government Email Validation Error Message with Hyperlink",
+    "status": "Ready for Dev",
+    "type": "Task",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/DHA-324"
+  },
+  {
     "key": "ABG-42",
     "summary": "Add New User Profile Field ",
     "status": "Ready for Code Review",
@@ -25,15 +34,6 @@
     "assignee": "Meghan Capiaghi",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/PR-2393"
-  },
-  {
-    "key": "DHA-324",
-    "summary": "Update Government Email Validation Error Message with Hyperlink",
-    "status": "New",
-    "type": "Task",
-    "assignee": "",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/DHA-324"
   },
   {
     "key": "CISD-3332",
