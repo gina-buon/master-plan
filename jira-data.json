@@ -9,6 +9,15 @@
     "url": "https://gocadmium.atlassian.net/browse/ABG-42"
   },
   {
+    "key": "WIL-2",
+    "summary": "Site Setup Ticket based on LRD",
+    "status": "Ready for Dev",
+    "type": "Story",
+    "assignee": "Gina Buoncristiano",
+    "reporter": "Nikita Reyes",
+    "url": "https://gocadmium.atlassian.net/browse/WIL-2"
+  },
+  {
     "key": "DHA-324",
     "summary": "Update Government Email Validation Error Message with Hyperlink",
     "status": "Ready for Dev",
