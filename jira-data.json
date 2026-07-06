@@ -1,5 +1,14 @@
 [
   {
+    "key": "OH-408",
+    "summary": "Update Trust commerce Implementation to Core",
+    "status": "Blocked",
+    "type": "Bug",
+    "assignee": "Gina Buoncristiano",
+    "reporter": "Scott Hoppe",
+    "url": "https://gocadmium.atlassian.net/browse/OH-408"
+  },
+  {
     "key": "ABG-42",
     "summary": "Add New User Profile Field ",
     "status": "Ready for Dev",
