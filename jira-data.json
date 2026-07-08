@@ -1,12 +1,12 @@
 [
   {
-    "key": "WIL-2",
-    "summary": "Site Setup Ticket based on LRD",
-    "status": "Ready for Dev",
-    "type": "Story",
+    "key": "OH-408",
+    "summary": "Update Trust commerce Implementation to Core",
+    "status": "Blocked",
+    "type": "Bug",
     "assignee": "Gina Buoncristiano",
-    "reporter": "Nikita Reyes",
-    "url": "https://gocadmium.atlassian.net/browse/WIL-2"
+    "reporter": "Scott Hoppe",
+    "url": "https://gocadmium.atlassian.net/browse/OH-408"
   },
   {
     "key": "DHA-324",
@@ -16,15 +16,6 @@
     "assignee": "",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/DHA-324"
-  },
-  {
-    "key": "OH-408",
-    "summary": "Update Trust commerce Implementation to Core",
-    "status": "Blocked",
-    "type": "Bug",
-    "assignee": "Gina Buoncristiano",
-    "reporter": "Scott Hoppe",
-    "url": "https://gocadmium.atlassian.net/browse/OH-408"
   },
   {
     "key": "PR-2393",
@@ -160,15 +151,6 @@
     "assignee": "Nikita Reyes",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/AMT-1"
-  },
-  {
-    "key": "UKY-21",
-    "summary": "Onboarding",
-    "status": "New",
-    "type": "Epic",
-    "assignee": "Leah Lomotey",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/UKY-21"
   },
   {
     "key": "SIR-1",
