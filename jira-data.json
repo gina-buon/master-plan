@@ -1,12 +1,12 @@
 [
   {
-    "key": "OH-408",
-    "summary": "Update Trust commerce Implementation to Core",
-    "status": "Blocked",
-    "type": "Bug",
+    "key": "ABG-42",
+    "summary": "Add New User Profile Field ",
+    "status": "Ready for Dev",
+    "type": "Story",
     "assignee": "Gina Buoncristiano",
-    "reporter": "Scott Hoppe",
-    "url": "https://gocadmium.atlassian.net/browse/OH-408"
+    "reporter": "Leah Lomotey",
+    "url": "https://gocadmium.atlassian.net/browse/ABG-42"
   },
   {
     "key": "DHA-324",
@@ -43,15 +43,6 @@
     "assignee": "Meghan Capiaghi",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/PR-2457"
-  },
-  {
-    "key": "CMN-42",
-    "summary": "Professional Services (Subscriptions)",
-    "status": "In Progress",
-    "type": "Epic",
-    "assignee": "Gina Buoncristiano",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/CMN-42"
   },
   {
     "key": "PR-2366",
@@ -99,15 +90,6 @@
     "url": "https://gocadmium.atlassian.net/browse/ACLM-21"
   },
   {
-    "key": "CEN-20",
-    "summary": "Site validation - Operations",
-    "status": "Feedback",
-    "type": "PM Task",
-    "assignee": "Gina Buoncristiano",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/CEN-20"
-  },
-  {
     "key": "CORE-5000",
     "summary": "Make \"Close x hours before\" setting a course level setting",
     "status": "New",
@@ -115,15 +97,6 @@
     "assignee": "",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/CORE-5000"
-  },
-  {
-    "key": "AMT-20",
-    "summary": "Site validation - Operations",
-    "status": "In Progress",
-    "type": "PM Task",
-    "assignee": "Gina Buoncristiano",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/AMT-20"
   },
   {
     "key": "BMHC-1",
