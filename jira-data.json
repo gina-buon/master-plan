@@ -1,21 +1,21 @@
 [
   {
-    "key": "ABG-42",
-    "summary": "Add New User Profile Field ",
-    "status": "Ready for Dev",
-    "type": "Story",
-    "assignee": "Gina Buoncristiano",
-    "reporter": "Leah Lomotey",
-    "url": "https://gocadmium.atlassian.net/browse/ABG-42"
-  },
-  {
     "key": "DHA-324",
     "summary": "Update Government Email Validation Error Message with Hyperlink",
-    "status": "Ready for Dev",
+    "status": "Ready For QA",
     "type": "Task",
-    "assignee": "",
+    "assignee": "Hemangi Chawan",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/DHA-324"
+  },
+  {
+    "key": "PR-2719",
+    "summary": "CE Broker profile fields don't display help text when placed in an expandable group",
+    "status": "New",
+    "type": "Bug",
+    "assignee": "Hemangi Chawan",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-2719"
   },
   {
     "key": "PR-2393",
@@ -52,15 +52,6 @@
     "assignee": "Meghan Capiaghi",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/PR-2366"
-  },
-  {
-    "key": "CORE-4998",
-    "summary": "Exposing XML settings to site admins",
-    "status": "Ready for Development",
-    "type": "Story",
-    "assignee": "",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/CORE-4998"
   },
   {
     "key": "PR-1895",
