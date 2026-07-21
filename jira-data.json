@@ -1,14 +1,5 @@
 [
   {
-    "key": "PR-2457",
-    "summary": "CE Broker Reporting: Add Subject Area Field to Course Configuration",
-    "status": "In Progress",
-    "type": "New Feature",
-    "assignee": "Meghan Capiaghi",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/PR-2457"
-  },
-  {
     "key": "PR-2719",
     "summary": "CE Broker profile fields don't display help text when placed in an expandable group",
     "status": "Awaiting Decision",
@@ -16,6 +7,15 @@
     "assignee": "Meghan Capiaghi",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/PR-2719"
+  },
+  {
+    "key": "PR-2457",
+    "summary": "CE Broker Reporting: Add Subject Area Field to Course Configuration",
+    "status": "In Progress",
+    "type": "New Feature",
+    "assignee": "Meghan Capiaghi",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-2457"
   },
   {
     "key": "PR-2393",
