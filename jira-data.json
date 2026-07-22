@@ -2,7 +2,7 @@
   {
     "key": "PR-2719",
     "summary": "CE Broker profile fields don't display help text when placed in an expandable group",
-    "status": "Awaiting Decision",
+    "status": "Queued for Engineering",
     "type": "Bug",
     "assignee": "Meghan Capiaghi",
     "reporter": "Gina Buoncristiano",
