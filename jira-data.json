@@ -1,5 +1,14 @@
 [
   {
+    "key": "PR-2393",
+    "summary": "CE Broker: Profession link update, conditional reporting, and license validation",
+    "status": "In Progress",
+    "type": "New Feature",
+    "assignee": "Meghan Capiaghi",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-2393"
+  },
+  {
     "key": "PR-2457",
     "summary": "CE Broker Reporting: Add Subject Area Field to Course Configuration",
     "status": "In Progress",
@@ -16,15 +25,6 @@
     "assignee": "Meghan Capiaghi",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/PR-2719"
-  },
-  {
-    "key": "PR-2393",
-    "summary": "CE Broker: Profession link update, conditional reporting, and license validation",
-    "status": "In Progress",
-    "type": "New Feature",
-    "assignee": "Meghan Capiaghi",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/PR-2393"
   },
   {
     "key": "CISD-3332",
