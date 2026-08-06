@@ -1,5 +1,14 @@
 [
   {
+    "key": "ULV-3",
+    "summary": "Site Setup Ticket based on LRD",
+    "status": "Ready for Dev",
+    "type": "Story",
+    "assignee": "Gina Buoncristiano",
+    "reporter": "Leah Lomotey",
+    "url": "https://gocadmium.atlassian.net/browse/ULV-3"
+  },
+  {
     "key": "PR-2393",
     "summary": "CE Broker: Profession link update, conditional reporting, and license validation",
     "status": "In Progress",
