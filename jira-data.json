@@ -1,8 +1,17 @@
 [
   {
+    "key": "ECE-10074",
+    "summary": "EthosCE Version 7.106 - CORE-5521",
+    "status": "Waiting for support",
+    "type": "Support",
+    "assignee": "Gina Buoncristiano",
+    "reporter": "Gabriela Atkin",
+    "url": "https://gocadmium.atlassian.net/browse/ECE-10074"
+  },
+  {
     "key": "PR-2876",
     "summary": "External Cart Setup Changes (ASTRO)",
-    "status": "New",
+    "status": "In Progress",
     "type": "Task",
     "assignee": "Ezra Wolfe",
     "reporter": "Gina Buoncristiano",
