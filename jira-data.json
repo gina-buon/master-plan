@@ -1,5 +1,14 @@
 [
   {
+    "key": "ULV-3",
+    "summary": "Site Setup Ticket based on LRD",
+    "status": "Ready for Code Review",
+    "type": "Story",
+    "assignee": "Gina Buoncristiano",
+    "reporter": "Leah Lomotey",
+    "url": "https://gocadmium.atlassian.net/browse/ULV-3"
+  },
+  {
     "key": "ECE-10074",
     "summary": "EthosCE Version 7.106 - CORE-5521",
     "status": "Waiting for support",
@@ -16,15 +25,6 @@
     "assignee": "Ezra Wolfe",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/PR-2876"
-  },
-  {
-    "key": "ULV-3",
-    "summary": "Site Setup Ticket based on LRD",
-    "status": "Ready for Dev",
-    "type": "Story",
-    "assignee": "Gina Buoncristiano",
-    "reporter": "Leah Lomotey",
-    "url": "https://gocadmium.atlassian.net/browse/ULV-3"
   },
   {
     "key": "PR-2393",
