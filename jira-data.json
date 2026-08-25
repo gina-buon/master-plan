@@ -9,15 +9,6 @@
     "url": "https://gocadmium.atlassian.net/browse/LXT-587"
   },
   {
-    "key": "ULV-3",
-    "summary": "Site Setup Ticket based on LRD",
-    "status": "Ready for Code Review",
-    "type": "Story",
-    "assignee": "Gina Buoncristiano",
-    "reporter": "Leah Lomotey",
-    "url": "https://gocadmium.atlassian.net/browse/ULV-3"
-  },
-  {
     "key": "ECE-10074",
     "summary": "EthosCE Version 7.106 - CORE-5521",
     "status": "Waiting for support",
