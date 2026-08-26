@@ -1,12 +1,12 @@
 [
   {
-    "key": "LXT-587",
-    "summary": "AKH Subscription Add On Training",
-    "status": "New",
-    "type": "EthosCE Training",
-    "assignee": "Pamela Hernandez",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/LXT-587"
+    "key": "BAN-26",
+    "summary": "Add MBBS Credential to Credentials Profile Field with Include Credit Mapping",
+    "status": "Ready for Dev",
+    "type": "Story",
+    "assignee": "Gina Buoncristiano",
+    "reporter": "Nikita Reyes",
+    "url": "https://gocadmium.atlassian.net/browse/BAN-26"
   },
   {
     "key": "ECE-10074",
