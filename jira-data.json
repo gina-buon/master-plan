@@ -1,14 +1,5 @@
 [
   {
-    "key": "BAN-26",
-    "summary": "Add MBBS Credential to Credentials Profile Field with Include Credit Mapping",
-    "status": "Ready for Dev",
-    "type": "Story",
-    "assignee": "Gina Buoncristiano",
-    "reporter": "Nikita Reyes",
-    "url": "https://gocadmium.atlassian.net/browse/BAN-26"
-  },
-  {
     "key": "ECE-10074",
     "summary": "EthosCE Version 7.106 - CORE-5521",
     "status": "Waiting for support",
