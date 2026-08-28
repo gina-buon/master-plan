@@ -1,5 +1,23 @@
 [
   {
+    "key": "PR-3002",
+    "summary": "WYSIWYG formatting on Board/License profile field description doesn't render on live profile",
+    "status": "New",
+    "type": "Bug",
+    "assignee": "Hemangi Chawan",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-3002"
+  },
+  {
+    "key": "PR-2999",
+    "summary": "Expose CE Broker profession & license fields to Looker",
+    "status": "New",
+    "type": "New Feature",
+    "assignee": "Meghan Capiaghi",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-2999"
+  },
+  {
     "key": "ECE-10074",
     "summary": "EthosCE Version 7.106 - CORE-5521",
     "status": "Waiting for support",
