@@ -1,8 +1,17 @@
 [
   {
+    "key": "PR-3017",
+    "summary": "Migrate Cvent integration from SOAP to REST ahead of Cvent's SOAP sunset",
+    "status": "New",
+    "type": "New Feature",
+    "assignee": "Meghan Capiaghi",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-3017"
+  },
+  {
     "key": "PR-3002",
     "summary": "WYSIWYG formatting on Board/License profile field description doesn't render on live profile",
-    "status": "New",
+    "status": "QA Review",
     "type": "Bug",
     "assignee": "Hemangi Chawan",
     "reporter": "Gina Buoncristiano",
