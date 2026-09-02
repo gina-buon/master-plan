@@ -1,10 +1,19 @@
 [
   {
+    "key": "BAN-28",
+    "summary": "Add Custom Session Field",
+    "status": "In Dev",
+    "type": "Story",
+    "assignee": "Gina Buoncristiano",
+    "reporter": "Nikita Reyes",
+    "url": "https://gocadmium.atlassian.net/browse/BAN-28"
+  },
+  {
     "key": "PR-3017",
     "summary": "Migrate Cvent integration from SOAP to REST ahead of Cvent's SOAP sunset",
     "status": "New",
-    "type": "New Feature",
-    "assignee": "Meghan Capiaghi",
+    "type": "Task",
+    "assignee": "Lilia Bradford",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/PR-3017"
   },
