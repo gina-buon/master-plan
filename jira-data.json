@@ -1,5 +1,14 @@
 [
   {
+    "key": "PR-3002",
+    "summary": "WYSIWYG formatting on Board/License profile field description doesn't render on live profile",
+    "status": "Awaiting Decision",
+    "type": "Bug",
+    "assignee": "Meghan Capiaghi",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-3002"
+  },
+  {
     "key": "BAN-28",
     "summary": "Add Custom Session Field",
     "status": "In Dev",
@@ -16,15 +25,6 @@
     "assignee": "Lilia Bradford",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/PR-3017"
-  },
-  {
-    "key": "PR-3002",
-    "summary": "WYSIWYG formatting on Board/License profile field description doesn't render on live profile",
-    "status": "QA Review",
-    "type": "Bug",
-    "assignee": "Hemangi Chawan",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/PR-3002"
   },
   {
     "key": "PR-2999",
