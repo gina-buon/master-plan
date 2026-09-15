@@ -1,5 +1,14 @@
 [
   {
+    "key": "PR-3083",
+    "summary": "Expose ACCME JSON API credential config (client key/secret) to site admins with expiration-date tracking, renewal reminders, and failure alerting",
+    "status": "New",
+    "type": "New Feature",
+    "assignee": "Meghan Capiaghi",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-3083"
+  },
+  {
     "key": "PR-3086",
     "summary": "CE Broker subject area reporting doesn't support variable partial credit at the child-credit level",
     "status": "New",
