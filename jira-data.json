@@ -1,5 +1,23 @@
 [
   {
+    "key": "BAN-28",
+    "summary": "Add Custom Session Field",
+    "status": "Ready for Dev",
+    "type": "Story",
+    "assignee": "Gina Buoncristiano",
+    "reporter": "Nikita Reyes",
+    "url": "https://gocadmium.atlassian.net/browse/BAN-28"
+  },
+  {
+    "key": "WIL-19",
+    "summary": "Site validation - Operations",
+    "status": "Feedback",
+    "type": "PM Task",
+    "assignee": "Gina Buoncristiano",
+    "reporter": "Nikita Reyes",
+    "url": "https://gocadmium.atlassian.net/browse/WIL-19"
+  },
+  {
     "key": "PR-3083",
     "summary": "Expose ACCME JSON API credential config (client key/secret) to site admins with expiration-date tracking, renewal reminders, and failure alerting",
     "status": "New",
