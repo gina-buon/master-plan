@@ -1,14 +1,5 @@
 [
   {
-    "key": "BAN-28",
-    "summary": "Add Custom Session Field",
-    "status": "Ready for Dev",
-    "type": "Story",
-    "assignee": "Gina Buoncristiano",
-    "reporter": "Nikita Reyes",
-    "url": "https://gocadmium.atlassian.net/browse/BAN-28"
-  },
-  {
     "key": "WIL-19",
     "summary": "Site validation - Operations",
     "status": "Feedback",
