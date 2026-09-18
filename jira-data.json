@@ -1,5 +1,23 @@
 [
   {
+    "key": "PR-3086",
+    "summary": "CE Broker subject area reporting doesn't support variable partial credit at the child-credit level",
+    "status": "Awaiting Decision",
+    "type": "New Feature",
+    "assignee": "Meghan Capiaghi",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-3086"
+  },
+  {
+    "key": "PR-2999",
+    "summary": "Expose CE Broker profession & license fields to Looker",
+    "status": "Awaiting Decision",
+    "type": "New Feature",
+    "assignee": "Meghan Capiaghi",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-2999"
+  },
+  {
     "key": "WIL-19",
     "summary": "Site validation - Operations",
     "status": "Feedback",
@@ -7,24 +25,6 @@
     "assignee": "Gina Buoncristiano",
     "reporter": "Nikita Reyes",
     "url": "https://gocadmium.atlassian.net/browse/WIL-19"
-  },
-  {
-    "key": "PR-3083",
-    "summary": "Expose ACCME JSON API credential config (client key/secret) to site admins with expiration-date tracking, renewal reminders, and failure alerting",
-    "status": "New",
-    "type": "New Feature",
-    "assignee": "Meghan Capiaghi",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/PR-3083"
-  },
-  {
-    "key": "PR-3086",
-    "summary": "CE Broker subject area reporting doesn't support variable partial credit at the child-credit level",
-    "status": "New",
-    "type": "New Feature",
-    "assignee": "Meghan Capiaghi",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/PR-3086"
   },
   {
     "key": "PR-3002",
@@ -43,15 +43,6 @@
     "assignee": "Lilia Bradford",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/PR-3017"
-  },
-  {
-    "key": "PR-2999",
-    "summary": "Expose CE Broker profession & license fields to Looker",
-    "status": "New",
-    "type": "New Feature",
-    "assignee": "Meghan Capiaghi",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/PR-2999"
   },
   {
     "key": "ECE-10074",
