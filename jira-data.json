@@ -1,14 +1,5 @@
 [
   {
-    "key": "PR-3142",
-    "summary": "Expose ACCME JSON API credential fields to site admins for self-service entry",
-    "status": "Queued for Engineering",
-    "type": "New Feature",
-    "assignee": "Meghan Capiaghi",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/PR-3142"
-  },
-  {
     "key": "PR-3002",
     "summary": "WYSIWYG formatting on Board/License profile field description doesn't render on live profile",
     "status": "Queued for Engineering",
@@ -16,6 +7,15 @@
     "assignee": "Meghan Capiaghi",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/PR-3002"
+  },
+  {
+    "key": "PR-3142",
+    "summary": "Expose ACCME JSON API credential fields to site admins for self-service entry",
+    "status": "Queued for Engineering",
+    "type": "New Feature",
+    "assignee": "Meghan Capiaghi",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-3142"
   },
   {
     "key": "PR-2999",
@@ -34,15 +34,6 @@
     "assignee": "Meghan Capiaghi",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/PR-3086"
-  },
-  {
-    "key": "WIL-19",
-    "summary": "Site validation - Operations",
-    "status": "Feedback",
-    "type": "PM Task",
-    "assignee": "Gina Buoncristiano",
-    "reporter": "Nikita Reyes",
-    "url": "https://gocadmium.atlassian.net/browse/WIL-19"
   },
   {
     "key": "PR-3017",
