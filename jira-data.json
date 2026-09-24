@@ -1,5 +1,32 @@
 [
   {
+    "key": "PR-3086",
+    "summary": "CE Broker subject area reporting doesn't support variable partial credit at the child-credit level",
+    "status": "Awaiting Decision",
+    "type": "New Feature",
+    "assignee": "Meghan Capiaghi",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-3086"
+  },
+  {
+    "key": "AKH-137",
+    "summary": "Enable Subcriptions & Price Per Role",
+    "status": "New",
+    "type": "Story",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/AKH-137"
+  },
+  {
+    "key": "PR-3163",
+    "summary": "Flag ACCME connection failures for site admins instead of failing silently",
+    "status": "New",
+    "type": "New Feature",
+    "assignee": "Meghan Capiaghi",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-3163"
+  },
+  {
     "key": "PR-3002",
     "summary": "WYSIWYG formatting on Board/License profile field description doesn't render on live profile",
     "status": "Queued for Engineering",
@@ -25,15 +52,6 @@
     "assignee": "Meghan Capiaghi",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/PR-2999"
-  },
-  {
-    "key": "PR-3086",
-    "summary": "CE Broker subject area reporting doesn't support variable partial credit at the child-credit level",
-    "status": "Awaiting Decision",
-    "type": "New Feature",
-    "assignee": "Meghan Capiaghi",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/PR-3086"
   },
   {
     "key": "PR-3017",
