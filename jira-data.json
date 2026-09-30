@@ -1,5 +1,14 @@
 [
   {
+    "key": "PR-3002",
+    "summary": "WYSIWYG formatting on Board/License profile field description doesn't render on live profile",
+    "status": "In Progress",
+    "type": "Bug",
+    "assignee": "Meghan Capiaghi",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-3002"
+  },
+  {
     "key": "ACLM-54",
     "summary": "Add MOC Credit Types",
     "status": "New",
@@ -7,15 +16,6 @@
     "assignee": "",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/ACLM-54"
-  },
-  {
-    "key": "AKH-137",
-    "summary": "Enable Subcriptions & Price Per Role",
-    "status": "Ready For QA",
-    "type": "Story",
-    "assignee": "",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/AKH-137"
   },
   {
     "key": "PR-3086",
@@ -34,15 +34,6 @@
     "assignee": "Meghan Capiaghi",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/PR-3163"
-  },
-  {
-    "key": "PR-3002",
-    "summary": "WYSIWYG formatting on Board/License profile field description doesn't render on live profile",
-    "status": "Queued for Engineering",
-    "type": "Bug",
-    "assignee": "Meghan Capiaghi",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/PR-3002"
   },
   {
     "key": "PR-3142",
