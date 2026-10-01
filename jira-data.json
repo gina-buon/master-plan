@@ -1,5 +1,14 @@
 [
   {
+    "key": "CISD-4031",
+    "summary": "Login fails with \"request header field exceeds server limit\" on login.hosted.cloud.ethosce.com",
+    "status": "Waiting for support",
+    "type": "[System] Problem",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/CISD-4031"
+  },
+  {
     "key": "PR-3002",
     "summary": "WYSIWYG formatting on Board/License profile field description doesn't render on live profile",
     "status": "In Progress",
