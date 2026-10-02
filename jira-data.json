@@ -1,5 +1,32 @@
 [
   {
+    "key": "PR-3086",
+    "summary": "CE Broker subject area reporting doesn't support variable partial credit at the child-credit level",
+    "status": "Awaiting Decision",
+    "type": "New Feature",
+    "assignee": "Meghan Capiaghi",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-3086"
+  },
+  {
+    "key": "PR-2999",
+    "summary": "Expose CE Broker profession & license fields to Looker",
+    "status": "Awaiting Decision",
+    "type": "New Feature",
+    "assignee": "Meghan Capiaghi",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-2999"
+  },
+  {
+    "key": "UR-25",
+    "summary": "Convert Ethics credit to a child credit of AMA PRA Category 1 Credit\u2122 and migrate awarded history",
+    "status": "New",
+    "type": "Story",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/UR-25"
+  },
+  {
     "key": "CISD-4031",
     "summary": "Login fails with \"request header field exceeds server limit\" on login.hosted.cloud.ethosce.com",
     "status": "Waiting for support",
@@ -27,15 +54,6 @@
     "url": "https://gocadmium.atlassian.net/browse/ACLM-54"
   },
   {
-    "key": "PR-3086",
-    "summary": "CE Broker subject area reporting doesn't support variable partial credit at the child-credit level",
-    "status": "Awaiting Decision",
-    "type": "New Feature",
-    "assignee": "Meghan Capiaghi",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/PR-3086"
-  },
-  {
     "key": "PR-3163",
     "summary": "Flag ACCME connection failures for site admins instead of failing silently",
     "status": "New",
@@ -52,15 +70,6 @@
     "assignee": "Meghan Capiaghi",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/PR-3142"
-  },
-  {
-    "key": "PR-2999",
-    "summary": "Expose CE Broker profession & license fields to Looker",
-    "status": "Awaiting Decision",
-    "type": "New Feature",
-    "assignee": "Meghan Capiaghi",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/PR-2999"
   },
   {
     "key": "PR-3017",
