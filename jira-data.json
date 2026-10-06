@@ -1,12 +1,66 @@
 [
   {
+    "key": "ACLM-54",
+    "summary": "Add MOC Credit Types",
+    "status": "In Code Review",
+    "type": "Story",
+    "assignee": "Karl Yoder",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/ACLM-54"
+  },
+  {
+    "key": "PR-3243",
+    "summary": "PARS JSON reporter fails on course save: Could not resolve host parsiiapimprd.accme.org (blocks INH pilot migration)",
+    "status": "Awaiting Decision",
+    "type": "Bug",
+    "assignee": "Hemangi Chawan",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-3243"
+  },
+  {
     "key": "PR-3086",
     "summary": "CE Broker subject area reporting doesn't support variable partial credit at the child-credit level",
-    "status": "Awaiting Decision",
+    "status": "Queued for Engineering",
     "type": "New Feature",
     "assignee": "Meghan Capiaghi",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/PR-3086"
+  },
+  {
+    "key": "PR-3002",
+    "summary": "WYSIWYG formatting on Board/License profile field description doesn't render on live profile",
+    "status": "In Progress",
+    "type": "Bug",
+    "assignee": "Meghan Capiaghi",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-3002"
+  },
+  {
+    "key": "QAI-773",
+    "summary": "Map PARS Learner Counts",
+    "status": "Ready for Code Review",
+    "type": "Story",
+    "assignee": "Gina Buoncristiano",
+    "reporter": "Melissa Rickards",
+    "url": "https://gocadmium.atlassian.net/browse/QAI-773"
+  },
+  {
+    "key": "ACLM-57",
+    "summary": "ACLM - Deployment - 2026 - 10- 07",
+    "status": "New",
+    "type": "Cloud deployment",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/ACLM-57"
+  },
+  {
+    "key": "PR-3163",
+    "summary": "Flag ACCME connection failures for site admins instead of failing silently",
+    "status": "Awaiting Decision",
+    "type": "New Feature",
+    "assignee": "Meghan Capiaghi",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-3163"
   },
   {
     "key": "PR-2999",
@@ -34,33 +88,6 @@
     "assignee": "",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/CISD-4031"
-  },
-  {
-    "key": "PR-3002",
-    "summary": "WYSIWYG formatting on Board/License profile field description doesn't render on live profile",
-    "status": "In Progress",
-    "type": "Bug",
-    "assignee": "Meghan Capiaghi",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/PR-3002"
-  },
-  {
-    "key": "ACLM-54",
-    "summary": "Add MOC Credit Types",
-    "status": "New",
-    "type": "Story",
-    "assignee": "",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/ACLM-54"
-  },
-  {
-    "key": "PR-3163",
-    "summary": "Flag ACCME connection failures for site admins instead of failing silently",
-    "status": "New",
-    "type": "New Feature",
-    "assignee": "Meghan Capiaghi",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/PR-3163"
   },
   {
     "key": "PR-3142",
