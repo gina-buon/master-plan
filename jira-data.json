@@ -1,21 +1,21 @@
 [
   {
-    "key": "ACLM-54",
-    "summary": "Add MOC Credit Types",
-    "status": "In Code Review",
-    "type": "Story",
-    "assignee": "Karl Yoder",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/ACLM-54"
-  },
-  {
     "key": "PR-3243",
     "summary": "PARS JSON reporter fails on course save: Could not resolve host parsiiapimprd.accme.org (blocks INH pilot migration)",
-    "status": "Awaiting Decision",
+    "status": "In Progress",
     "type": "Bug",
-    "assignee": "Hemangi Chawan",
+    "assignee": "Meghan Capiaghi",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/PR-3243"
+  },
+  {
+    "key": "QAI-773",
+    "summary": "Map PARS Learner Counts",
+    "status": "Change Management",
+    "type": "Story",
+    "assignee": "Gina Buoncristiano",
+    "reporter": "Melissa Rickards",
+    "url": "https://gocadmium.atlassian.net/browse/QAI-773"
   },
   {
     "key": "PR-3086",
@@ -34,24 +34,6 @@
     "assignee": "Meghan Capiaghi",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/PR-3002"
-  },
-  {
-    "key": "QAI-773",
-    "summary": "Map PARS Learner Counts",
-    "status": "Ready for Code Review",
-    "type": "Story",
-    "assignee": "Gina Buoncristiano",
-    "reporter": "Melissa Rickards",
-    "url": "https://gocadmium.atlassian.net/browse/QAI-773"
-  },
-  {
-    "key": "ACLM-57",
-    "summary": "ACLM - Deployment - 2026 - 10- 07",
-    "status": "New",
-    "type": "Cloud deployment",
-    "assignee": "",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/ACLM-57"
   },
   {
     "key": "PR-3163",
