@@ -1,5 +1,14 @@
 [
   {
+    "key": "ASTR-194",
+    "summary": "Add New Roles to Price Per Role",
+    "status": "Ready for Dev",
+    "type": "Story",
+    "assignee": "Gina Buoncristiano",
+    "reporter": "Melissa Rickards",
+    "url": "https://gocadmium.atlassian.net/browse/ASTR-194"
+  },
+  {
     "key": "PR-3243",
     "summary": "PARS JSON reporter fails on course save: Could not resolve host parsiiapimprd.accme.org (blocks INH pilot migration)",
     "status": "In Progress",
@@ -7,15 +16,6 @@
     "assignee": "Meghan Capiaghi",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/PR-3243"
-  },
-  {
-    "key": "QAI-773",
-    "summary": "Map PARS Learner Counts",
-    "status": "Change Management",
-    "type": "Story",
-    "assignee": "Gina Buoncristiano",
-    "reporter": "Melissa Rickards",
-    "url": "https://gocadmium.atlassian.net/browse/QAI-773"
   },
   {
     "key": "PR-3086",
