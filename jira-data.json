@@ -1,5 +1,14 @@
 [
   {
+    "key": "PR-3017",
+    "summary": "Migrate Cvent integration from SOAP to REST ahead of Cvent's SOAP sunset",
+    "status": "In Progress",
+    "type": "Task",
+    "assignee": "Lilia Bradford",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-3017"
+  },
+  {
     "key": "PR-3243",
     "summary": "PARS JSON reporter fails on course save: Could not resolve host parsiiapimprd.accme.org (blocks INH pilot migration)",
     "status": "Ready for Release",
@@ -79,15 +88,6 @@
     "assignee": "Meghan Capiaghi",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/PR-3142"
-  },
-  {
-    "key": "PR-3017",
-    "summary": "Migrate Cvent integration from SOAP to REST ahead of Cvent's SOAP sunset",
-    "status": "New",
-    "type": "Task",
-    "assignee": "Lilia Bradford",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/PR-3017"
   },
   {
     "key": "ECE-10074",
