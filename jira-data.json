@@ -2,7 +2,7 @@
   {
     "key": "CISD-4031",
     "summary": "Login fails with \"request header field exceeds server limit\" on login.hosted.cloud.ethosce.com",
-    "status": "In Progress",
+    "status": "Waiting for customer",
     "type": "[System] Problem",
     "assignee": "Ken Trenkelbach",
     "reporter": "Gina Buoncristiano",
