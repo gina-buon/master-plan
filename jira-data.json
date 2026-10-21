@@ -27,15 +27,6 @@
     "url": "https://gocadmium.atlassian.net/browse/ECE-10425"
   },
   {
-    "key": "CISD-4031",
-    "summary": "Login fails with \"request header field exceeds server limit\" on login.hosted.cloud.ethosce.com",
-    "status": "Waiting for customer",
-    "type": "[System] Problem",
-    "assignee": "Ken Trenkelbach",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/CISD-4031"
-  },
-  {
     "key": "PR-3017",
     "summary": "Migrate Cvent integration from SOAP to REST ahead of Cvent's SOAP sunset",
     "status": "In Progress",
