@@ -1,14 +1,5 @@
 [
   {
-    "key": "ECRI-133",
-    "summary": "SSO User Migration to Auth0",
-    "status": "Blocked",
-    "type": "Story",
-    "assignee": "Gina Buoncristiano",
-    "reporter": "Leah Lomotey",
-    "url": "https://gocadmium.atlassian.net/browse/ECRI-133"
-  },
-  {
     "key": "PR-2999",
     "summary": "Expose CE Broker profession & license fields to Looker",
     "status": "In Progress",
