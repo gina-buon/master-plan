@@ -1,5 +1,14 @@
 [
   {
+    "key": "UR-25",
+    "summary": "Retire standalone Ethics credit and add Ethics as a child credit of AMA PRA Category 1 Credit\u2122",
+    "status": "In Code Review",
+    "type": "Story",
+    "assignee": "Karl Yoder",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/UR-25"
+  },
+  {
     "key": "PR-3392",
     "summary": "CE Broker: auto re-queue first/last name mismatch errors using first + middle name",
     "status": "New",
@@ -70,15 +79,6 @@
     "assignee": "Meghan Capiaghi",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/PR-3163"
-  },
-  {
-    "key": "UR-25",
-    "summary": "Convert Ethics credit to a child credit of AMA PRA Category 1 Credit\u2122 and migrate awarded history",
-    "status": "New",
-    "type": "Story",
-    "assignee": "",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/UR-25"
   },
   {
     "key": "PR-3142",
