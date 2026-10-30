@@ -2,9 +2,9 @@
   {
     "key": "UR-25",
     "summary": "Retire standalone Ethics credit and add Ethics as a child credit of AMA PRA Category 1 Credit\u2122",
-    "status": "In Code Review",
+    "status": "Ready for Dev",
     "type": "Story",
-    "assignee": "Karl Yoder",
+    "assignee": "Gina Buoncristiano",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/UR-25"
   },
