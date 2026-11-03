@@ -2,11 +2,20 @@
   {
     "key": "UR-25",
     "summary": "Retire standalone Ethics credit and add Ethics as a child credit of AMA PRA Category 1 Credit\u2122",
-    "status": "In Code Review",
+    "status": "Ready For QA",
     "type": "Story",
-    "assignee": "Karl Yoder",
+    "assignee": "",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/UR-25"
+  },
+  {
+    "key": "INH-46",
+    "summary": "Add ABPM and ABPMR MOC credit types",
+    "status": "New",
+    "type": "Task",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/INH-46"
   },
   {
     "key": "PR-3086",
@@ -16,15 +25,6 @@
     "assignee": "Meghan Capiaghi",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/PR-3086"
-  },
-  {
-    "key": "PMC-19",
-    "summary": "Site validation - Operations",
-    "status": "Feedback",
-    "type": "PM Task",
-    "assignee": "Gina Buoncristiano",
-    "reporter": "Nikita Reyes",
-    "url": "https://gocadmium.atlassian.net/browse/PMC-19"
   },
   {
     "key": "PR-3392",
