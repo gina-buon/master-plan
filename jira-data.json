@@ -1,5 +1,14 @@
 [
   {
+    "key": "ECRI-135",
+    "summary": "Bug Fix to ECRI-130",
+    "status": "In Dev",
+    "type": "Story",
+    "assignee": "Karl Yoder",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/ECRI-135"
+  },
+  {
     "key": "ECE-10074",
     "summary": "EthosCE Version 7.106 - CORE-5521",
     "status": "Waiting for customer",
