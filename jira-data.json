@@ -1,10 +1,28 @@
 [
   {
+    "key": "PR-2999",
+    "summary": "Expose CE Broker profession & license fields to Looker",
+    "status": "Ready for Release",
+    "type": "New Feature",
+    "assignee": "Meghan Capiaghi",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-2999"
+  },
+  {
+    "key": "PR-3392",
+    "summary": "CE Broker: auto re-queue first/last name mismatch errors using first + middle name",
+    "status": "Awaiting Decision",
+    "type": "New Feature",
+    "assignee": "Meghan Capiaghi",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-3392"
+  },
+  {
     "key": "ECRI-135",
     "summary": "Bug Fix to ECRI-130",
-    "status": "In Dev",
+    "status": "Ready For QA",
     "type": "Story",
-    "assignee": "Karl Yoder",
+    "assignee": "",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/ECRI-135"
   },
@@ -36,24 +54,6 @@
     "url": "https://gocadmium.atlassian.net/browse/INH-46"
   },
   {
-    "key": "PR-3086",
-    "summary": "CE Broker subject area reporting doesn't support variable partial credit at the child-credit level",
-    "status": "In Progress",
-    "type": "New Feature",
-    "assignee": "Meghan Capiaghi",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/PR-3086"
-  },
-  {
-    "key": "PR-3392",
-    "summary": "CE Broker: auto re-queue first/last name mismatch errors using first + middle name",
-    "status": "New",
-    "type": "New Feature",
-    "assignee": "Meghan Capiaghi",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/PR-3392"
-  },
-  {
     "key": "ECE-10425",
     "summary": "Enable SMS texting and Twilio on our site",
     "status": "Waiting for customer",
@@ -63,15 +63,6 @@
     "url": "https://gocadmium.atlassian.net/browse/ECE-10425"
   },
   {
-    "key": "PR-2999",
-    "summary": "Expose CE Broker profession & license fields to Looker",
-    "status": "In Progress",
-    "type": "New Feature",
-    "assignee": "Meghan Capiaghi",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/PR-2999"
-  },
-  {
     "key": "PR-3017",
     "summary": "Migrate Cvent integration from SOAP to REST ahead of Cvent's SOAP sunset",
     "status": "In Progress",
@@ -79,24 +70,6 @@
     "assignee": "Lilia Bradford",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/PR-3017"
-  },
-  {
-    "key": "PR-3243",
-    "summary": "PARS JSON reporter fails on course save: Could not resolve host parsiiapimprd.accme.org (blocks INH pilot migration)",
-    "status": "Ready for Release",
-    "type": "Bug",
-    "assignee": "Meghan Capiaghi",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/PR-3243"
-  },
-  {
-    "key": "PR-3002",
-    "summary": "WYSIWYG formatting on Board/License profile field description doesn't render on live profile",
-    "status": "In Progress",
-    "type": "Bug",
-    "assignee": "Meghan Capiaghi",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/PR-3002"
   },
   {
     "key": "PR-3163",
@@ -124,15 +97,6 @@
     "assignee": "Ezra Wolfe",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/PR-2876"
-  },
-  {
-    "key": "PR-2393",
-    "summary": "CE Broker: Profession link update, conditional reporting, and license validation",
-    "status": "In Progress",
-    "type": "New Feature",
-    "assignee": "Meghan Capiaghi",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/PR-2393"
   },
   {
     "key": "CISD-3332",
