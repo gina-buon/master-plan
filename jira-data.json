@@ -1,14 +1,5 @@
 [
   {
-    "key": "PR-2999",
-    "summary": "Expose CE Broker profession & license fields to Looker",
-    "status": "Ready for Release",
-    "type": "New Feature",
-    "assignee": "Meghan Capiaghi",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/PR-2999"
-  },
-  {
     "key": "PR-3392",
     "summary": "CE Broker: auto re-queue first/last name mismatch errors using first + middle name",
     "status": "Awaiting Decision",
@@ -18,15 +9,6 @@
     "url": "https://gocadmium.atlassian.net/browse/PR-3392"
   },
   {
-    "key": "ECRI-135",
-    "summary": "Bug Fix to ECRI-130",
-    "status": "Ready For QA",
-    "type": "Story",
-    "assignee": "",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/ECRI-135"
-  },
-  {
     "key": "ECE-10074",
     "summary": "EthosCE Version 7.106 - CORE-5521",
     "status": "Waiting for customer",
@@ -34,6 +16,33 @@
     "assignee": "Gina Buoncristiano",
     "reporter": "Gabriela Atkin",
     "url": "https://gocadmium.atlassian.net/browse/ECE-10074"
+  },
+  {
+    "key": "ECE-10425",
+    "summary": "Enable SMS texting and Twilio on our site",
+    "status": "Waiting for customer",
+    "type": "Support",
+    "assignee": "Gina Buoncristiano",
+    "reporter": "Chelsea Cliatt",
+    "url": "https://gocadmium.atlassian.net/browse/ECE-10425"
+  },
+  {
+    "key": "PR-2999",
+    "summary": "Expose CE Broker profession & license fields to Looker",
+    "status": "Ready for Release",
+    "type": "New Feature",
+    "assignee": "Meghan Capiaghi",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-2999"
+  },
+  {
+    "key": "ECRI-135",
+    "summary": "Bug Fix to ECRI-130",
+    "status": "Ready For QA",
+    "type": "Story",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/ECRI-135"
   },
   {
     "key": "UR-25",
@@ -52,15 +61,6 @@
     "assignee": "",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/INH-46"
-  },
-  {
-    "key": "ECE-10425",
-    "summary": "Enable SMS texting and Twilio on our site",
-    "status": "Waiting for customer",
-    "type": "Support",
-    "assignee": "Gina Buoncristiano",
-    "reporter": "Chelsea Cliatt",
-    "url": "https://gocadmium.atlassian.net/browse/ECE-10425"
   },
   {
     "key": "PR-3017",
