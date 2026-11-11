@@ -1,5 +1,32 @@
 [
   {
+    "key": "ECRI-135",
+    "summary": "Bug Fix to ECRI-130",
+    "status": "Blocked",
+    "type": "Story",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/ECRI-135"
+  },
+  {
+    "key": "UR-26",
+    "summary": "Add Human Trafficking and Pain Management and the Prescription of Opioids as child credits of AMA PRA Category 1 Credit\u2122",
+    "status": "Ready for Code Review",
+    "type": "Story",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/UR-26"
+  },
+  {
+    "key": "UR-25",
+    "summary": "Retire standalone Ethics credit and add Ethics as a child credit of AMA PRA Category 1 Credit\u2122",
+    "status": "Blocked",
+    "type": "Story",
+    "assignee": "Karl Yoder",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/UR-25"
+  },
+  {
     "key": "PR-3392",
     "summary": "CE Broker: auto re-queue first/last name mismatch errors using first + middle name",
     "status": "Awaiting Decision",
@@ -34,24 +61,6 @@
     "assignee": "Meghan Capiaghi",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/PR-2999"
-  },
-  {
-    "key": "ECRI-135",
-    "summary": "Bug Fix to ECRI-130",
-    "status": "Ready For QA",
-    "type": "Story",
-    "assignee": "",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/ECRI-135"
-  },
-  {
-    "key": "UR-25",
-    "summary": "Retire standalone Ethics credit and add Ethics as a child credit of AMA PRA Category 1 Credit\u2122",
-    "status": "Ready For QA",
-    "type": "Story",
-    "assignee": "",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/UR-25"
   },
   {
     "key": "INH-46",
