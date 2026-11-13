@@ -1,8 +1,44 @@
 [
   {
+    "key": "PR-3519",
+    "summary": "CE Broker: remove first/last name comparison from pre-submission license validation (blocking credit reporting across multiple clients)",
+    "status": "New",
+    "type": "New Feature",
+    "assignee": "Meghan Capiaghi",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-3519"
+  },
+  {
+    "key": "ECE-10425",
+    "summary": "Enable SMS texting and Twilio on our site",
+    "status": "Waiting for support",
+    "type": "Support",
+    "assignee": "Gina Buoncristiano",
+    "reporter": "Chelsea Cliatt",
+    "url": "https://gocadmium.atlassian.net/browse/ECE-10425"
+  },
+  {
+    "key": "PR-3142",
+    "summary": "Expose ACCME JSON API credential fields to site admins for self-service entry",
+    "status": "In Progress",
+    "type": "New Feature",
+    "assignee": "Meghan Capiaghi",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-3142"
+  },
+  {
+    "key": "PR-3520",
+    "summary": "CE Broker: show CE Broker name on reported credits and add claim-time license validation (like MOC)",
+    "status": "New",
+    "type": "New Feature",
+    "assignee": "Meghan Capiaghi",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-3520"
+  },
+  {
     "key": "INH-46",
     "summary": "Add ABPM and ABPMR MOC credit types",
-    "status": "Ready for Code Review",
+    "status": "Ready For QA",
     "type": "Task",
     "assignee": "",
     "reporter": "Gina Buoncristiano",
@@ -36,15 +72,6 @@
     "url": "https://gocadmium.atlassian.net/browse/ECRI-135"
   },
   {
-    "key": "PR-3392",
-    "summary": "CE Broker: auto re-queue first/last name mismatch errors using first + middle name",
-    "status": "Awaiting Decision",
-    "type": "New Feature",
-    "assignee": "Meghan Capiaghi",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/PR-3392"
-  },
-  {
     "key": "ECE-10074",
     "summary": "EthosCE Version 7.106 - CORE-5521",
     "status": "Waiting for customer",
@@ -52,15 +79,6 @@
     "assignee": "Gina Buoncristiano",
     "reporter": "Gabriela Atkin",
     "url": "https://gocadmium.atlassian.net/browse/ECE-10074"
-  },
-  {
-    "key": "ECE-10425",
-    "summary": "Enable SMS texting and Twilio on our site",
-    "status": "Waiting for customer",
-    "type": "Support",
-    "assignee": "Gina Buoncristiano",
-    "reporter": "Chelsea Cliatt",
-    "url": "https://gocadmium.atlassian.net/browse/ECE-10425"
   },
   {
     "key": "PR-2999",
@@ -88,15 +106,6 @@
     "assignee": "Meghan Capiaghi",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/PR-3163"
-  },
-  {
-    "key": "PR-3142",
-    "summary": "Expose ACCME JSON API credential fields to site admins for self-service entry",
-    "status": "Queued for Engineering",
-    "type": "New Feature",
-    "assignee": "Meghan Capiaghi",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/PR-3142"
   },
   {
     "key": "PR-2876",
