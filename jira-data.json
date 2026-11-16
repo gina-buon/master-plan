@@ -1,21 +1,30 @@
 [
   {
-    "key": "PR-3519",
-    "summary": "CE Broker: remove first/last name comparison from pre-submission license validation (blocking credit reporting across multiple clients)",
-    "status": "New",
-    "type": "New Feature",
-    "assignee": "Meghan Capiaghi",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/PR-3519"
-  },
-  {
     "key": "ECE-10425",
     "summary": "Enable SMS texting and Twilio on our site",
-    "status": "Waiting for support",
+    "status": "Waiting for customer",
     "type": "Support",
     "assignee": "Gina Buoncristiano",
     "reporter": "Chelsea Cliatt",
     "url": "https://gocadmium.atlassian.net/browse/ECE-10425"
+  },
+  {
+    "key": "PR-3520",
+    "summary": "CE Broker: show CE Broker name on reported credits and add claim-time license validation (like MOC)",
+    "status": "Queued for Engineering",
+    "type": "New Feature",
+    "assignee": "Meghan Capiaghi",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-3520"
+  },
+  {
+    "key": "PR-3519",
+    "summary": "CE Broker: remove first/last name comparison from pre-submission license validation (blocking credit reporting across multiple clients)",
+    "status": "Queued for Engineering",
+    "type": "New Feature",
+    "assignee": "Meghan Capiaghi",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-3519"
   },
   {
     "key": "PR-3142",
@@ -25,15 +34,6 @@
     "assignee": "Meghan Capiaghi",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/PR-3142"
-  },
-  {
-    "key": "PR-3520",
-    "summary": "CE Broker: show CE Broker name on reported credits and add claim-time license validation (like MOC)",
-    "status": "New",
-    "type": "New Feature",
-    "assignee": "Meghan Capiaghi",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/PR-3520"
   },
   {
     "key": "INH-46",
