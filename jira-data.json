@@ -2,11 +2,20 @@
   {
     "key": "ECE-10425",
     "summary": "Enable SMS texting and Twilio on our site",
-    "status": "Waiting for customer",
+    "status": "Waiting for support",
     "type": "Support",
     "assignee": "Gina Buoncristiano",
     "reporter": "Chelsea Cliatt",
     "url": "https://gocadmium.atlassian.net/browse/ECE-10425"
+  },
+  {
+    "key": "PR-3544",
+    "summary": "Let course admins override the \"Close x hours before\" signup cutoff for each live course",
+    "status": "New",
+    "type": "New Feature",
+    "assignee": "Meghan Capiaghi",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-3544"
   },
   {
     "key": "PR-3520",
@@ -36,15 +45,6 @@
     "url": "https://gocadmium.atlassian.net/browse/PR-3142"
   },
   {
-    "key": "INH-46",
-    "summary": "Add ABPM and ABPMR MOC credit types",
-    "status": "Ready For QA",
-    "type": "Task",
-    "assignee": "",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/INH-46"
-  },
-  {
     "key": "INH-47",
     "summary": "Migrate IPCE Credit to be child credit",
     "status": "New",
@@ -52,15 +52,6 @@
     "assignee": "",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/INH-47"
-  },
-  {
-    "key": "UR-27",
-    "summary": "UR - Deployment 2026 11 18",
-    "status": "Change Management",
-    "type": "Cloud deployment",
-    "assignee": "",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/UR-27"
   },
   {
     "key": "ECRI-135",
@@ -153,24 +144,6 @@
     "url": "https://gocadmium.atlassian.net/browse/PR-1806"
   },
   {
-    "key": "ACLM-21",
-    "summary": "Site validation - Infrastructure (CISD)",
-    "status": "In Progress",
-    "type": "PM Task",
-    "assignee": "",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/ACLM-21"
-  },
-  {
-    "key": "CORE-5000",
-    "summary": "Make \"Close x hours before\" setting a course level setting",
-    "status": "New",
-    "type": "Story",
-    "assignee": "",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/CORE-5000"
-  },
-  {
     "key": "BMHC-1",
     "summary": "Onboarding",
     "status": "New",
@@ -178,24 +151,6 @@
     "assignee": "Melissa Rickards",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/BMHC-1"
-  },
-  {
-    "key": "CEN-22",
-    "summary": "Onboarding",
-    "status": "New",
-    "type": "Epic",
-    "assignee": "",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/CEN-22"
-  },
-  {
-    "key": "AMT-1",
-    "summary": "Onboarding",
-    "status": "New",
-    "type": "Epic",
-    "assignee": "Nikita Reyes",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/AMT-1"
   },
   {
     "key": "SIR-1",
