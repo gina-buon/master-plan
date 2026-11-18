@@ -1,5 +1,14 @@
 [
   {
+    "key": "BAN-19",
+    "summary": "Site validation - Operations",
+    "status": "Feedback",
+    "type": "PM Task",
+    "assignee": "Gina Buoncristiano",
+    "reporter": "Nikita Reyes",
+    "url": "https://gocadmium.atlassian.net/browse/BAN-19"
+  },
+  {
     "key": "ECE-10425",
     "summary": "Enable SMS texting and Twilio on our site",
     "status": "Waiting for support",
@@ -52,15 +61,6 @@
     "assignee": "",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/INH-47"
-  },
-  {
-    "key": "ECRI-135",
-    "summary": "Bug Fix to ECRI-130",
-    "status": "Blocked",
-    "type": "Story",
-    "assignee": "",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/ECRI-135"
   },
   {
     "key": "ECE-10074",
