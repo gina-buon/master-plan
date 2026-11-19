@@ -1,17 +1,8 @@
 [
   {
-    "key": "BAN-19",
-    "summary": "Site validation - Operations",
-    "status": "Feedback",
-    "type": "PM Task",
-    "assignee": "Gina Buoncristiano",
-    "reporter": "Nikita Reyes",
-    "url": "https://gocadmium.atlassian.net/browse/BAN-19"
-  },
-  {
     "key": "ECE-10425",
     "summary": "Enable SMS texting and Twilio on our site",
-    "status": "Waiting for support",
+    "status": "In Progress",
     "type": "Support",
     "assignee": "Gina Buoncristiano",
     "reporter": "Chelsea Cliatt",
@@ -70,15 +61,6 @@
     "assignee": "Gina Buoncristiano",
     "reporter": "Gabriela Atkin",
     "url": "https://gocadmium.atlassian.net/browse/ECE-10074"
-  },
-  {
-    "key": "PR-2999",
-    "summary": "Expose CE Broker profession & license fields to Looker",
-    "status": "Ready for Release",
-    "type": "New Feature",
-    "assignee": "Meghan Capiaghi",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/PR-2999"
   },
   {
     "key": "PR-3017",
@@ -151,24 +133,6 @@
     "assignee": "Melissa Rickards",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/BMHC-1"
-  },
-  {
-    "key": "SIR-1",
-    "summary": "Onboarding",
-    "status": "New",
-    "type": "Epic",
-    "assignee": "Leah Lomotey",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/SIR-1"
-  },
-  {
-    "key": "AKH-84",
-    "summary": "Onboarding (2025)",
-    "status": "New",
-    "type": "Epic",
-    "assignee": "Leah Lomotey",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/AKH-84"
   },
   {
     "key": "FSCDR-1",
