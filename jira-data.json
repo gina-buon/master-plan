@@ -1,5 +1,23 @@
 [
   {
+    "key": "PR-3602",
+    "summary": "PARS sends outdated participant category \"physician assistant\" \u2014 ACCME renamed it to \"physician associate\"",
+    "status": "QA Review",
+    "type": "Bug",
+    "assignee": "Hemangi Chawan",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-3602"
+  },
+  {
+    "key": "PR-3601",
+    "summary": "JA-PARS JSON sends invalid values in TargetAudience profession \u2014 only Pharmacist / Pharmacy Technician are accepted",
+    "status": "QA Review",
+    "type": "Bug",
+    "assignee": "Hemangi Chawan",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-3601"
+  },
+  {
     "key": "PR-3519",
     "summary": "CE Broker: remove first/last name comparison from pre-submission license validation (blocking credit reporting across multiple clients)",
     "status": "In Progress",
