@@ -1,21 +1,75 @@
 [
   {
-    "key": "PR-3602",
-    "summary": "PARS sends outdated participant category \"physician assistant\" \u2014 ACCME renamed it to \"physician associate\"",
-    "status": "QA Review",
-    "type": "Bug",
-    "assignee": "Hemangi Chawan",
+    "key": "CISD-3332",
+    "summary": "CLONE - Looker Account for Nikita Reyes",
+    "status": "Waiting for customer",
+    "type": "[System] Service request",
+    "assignee": "Jake Pielert",
     "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/PR-3602"
+    "url": "https://gocadmium.atlassian.net/browse/CISD-3332"
   },
   {
-    "key": "PR-3601",
-    "summary": "JA-PARS JSON sends invalid values in TargetAudience profession \u2014 only Pharmacist / Pharmacy Technician are accepted",
-    "status": "QA Review",
-    "type": "Bug",
-    "assignee": "Hemangi Chawan",
+    "key": "PR-3017",
+    "summary": "Migrate Cvent integration from SOAP to REST ahead of Cvent's SOAP sunset",
+    "status": "In Progress",
+    "type": "Task",
+    "assignee": "Lilia Bradford",
     "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/PR-3601"
+    "url": "https://gocadmium.atlassian.net/browse/PR-3017"
+  },
+  {
+    "key": "FSCDR-24",
+    "summary": "Site validation Phase 2- Operations",
+    "status": "New",
+    "type": "PM Task",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/FSCDR-24"
+  },
+  {
+    "key": "FSCDR-1",
+    "summary": "Onboarding Phase 1",
+    "status": "New",
+    "type": "Epic",
+    "assignee": "Melissa Rickards",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/FSCDR-1"
+  },
+  {
+    "key": "FSCDR-23",
+    "summary": "Onboarding Phase 2",
+    "status": "New",
+    "type": "Epic",
+    "assignee": "",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/FSCDR-23"
+  },
+  {
+    "key": "PR-3605",
+    "summary": "Update PARS participant category \"physician assistant\" to \"physician associate\"",
+    "status": "New",
+    "type": "New Feature",
+    "assignee": "Meghan Capiaghi",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-3605"
+  },
+  {
+    "key": "PR-3604",
+    "summary": "Send only valid values (Pharmacist / Pharmacy Technician) in the PARS JSON TargetAudience profession field",
+    "status": "New",
+    "type": "New Feature",
+    "assignee": "Meghan Capiaghi",
+    "reporter": "Gina Buoncristiano",
+    "url": "https://gocadmium.atlassian.net/browse/PR-3604"
+  },
+  {
+    "key": "ECE-10074",
+    "summary": "EthosCE Version 7.106 - CORE-5521",
+    "status": "Waiting for customer",
+    "type": "Support",
+    "assignee": "Gina Buoncristiano",
+    "reporter": "Gabriela Atkin",
+    "url": "https://gocadmium.atlassian.net/browse/ECE-10074"
   },
   {
     "key": "PR-3519",
@@ -72,24 +126,6 @@
     "url": "https://gocadmium.atlassian.net/browse/INH-47"
   },
   {
-    "key": "ECE-10074",
-    "summary": "EthosCE Version 7.106 - CORE-5521",
-    "status": "Waiting for customer",
-    "type": "Support",
-    "assignee": "Gina Buoncristiano",
-    "reporter": "Gabriela Atkin",
-    "url": "https://gocadmium.atlassian.net/browse/ECE-10074"
-  },
-  {
-    "key": "PR-3017",
-    "summary": "Migrate Cvent integration from SOAP to REST ahead of Cvent's SOAP sunset",
-    "status": "In Progress",
-    "type": "Task",
-    "assignee": "Lilia Bradford",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/PR-3017"
-  },
-  {
     "key": "PR-3163",
     "summary": "Flag ACCME connection failures for site admins instead of failing silently",
     "status": "Awaiting Decision",
@@ -97,24 +133,6 @@
     "assignee": "Meghan Capiaghi",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/PR-3163"
-  },
-  {
-    "key": "PR-2876",
-    "summary": "External Cart Setup Changes (ASTRO)",
-    "status": "In Progress",
-    "type": "Task",
-    "assignee": "Ezra Wolfe",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/PR-2876"
-  },
-  {
-    "key": "CISD-3332",
-    "summary": "CLONE - Looker Account for Nikita Reyes",
-    "status": "In Progress",
-    "type": "[System] Service request",
-    "assignee": "Jake Pielert",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/CISD-3332"
   },
   {
     "key": "PR-2366",
@@ -151,15 +169,6 @@
     "assignee": "Melissa Rickards",
     "reporter": "Gina Buoncristiano",
     "url": "https://gocadmium.atlassian.net/browse/BMHC-1"
-  },
-  {
-    "key": "FSCDR-1",
-    "summary": "Onboarding",
-    "status": "New",
-    "type": "Epic",
-    "assignee": "Melissa Rickards",
-    "reporter": "Gina Buoncristiano",
-    "url": "https://gocadmium.atlassian.net/browse/FSCDR-1"
   },
   {
     "key": "BMC-22",
